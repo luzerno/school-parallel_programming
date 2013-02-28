@@ -1,0 +1,11 @@
+public class DecryptThread implements Runnable {
+	private SealedDES sealedDES;
+	private int threadId;
+	private long startKey, endKey;
+	public DecryptThread(SealedDES sealedDES, int threadId, ) {
+		this.sealedDES = sealedDES;
+	}
+	public void run() {
+		
+	}
+}

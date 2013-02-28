@@ -1,0 +1,9 @@
+public class DecryptThread implements Runnable {
+	private SealedDES sealedDES;
+	public DecryptThread(SealedDES sealedDES) {
+		this.sealedDES = sealedDES;
+	}
+	public void run() {
+		
+	}
+}
