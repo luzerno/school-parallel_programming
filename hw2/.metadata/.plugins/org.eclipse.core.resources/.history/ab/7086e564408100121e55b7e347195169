@@ -1,0 +1,28 @@
+import java.util.Random;
+
+public class CoinThread implements Runnable {
+    private int threadId;
+    private int numIterations;
+    private int numHead;
+    private Random rand;
+    public void run() {
+    	for (int i = 0; i < numIterations; i++) {
+    		if (rand.nextInt(2) == 1) {
+    			this.numHead++;
+    		}
+    	}
+    }
+    public int getThreadId() {
+    	return this.threadId;
+    }
+    public int getNumHead() {
+    	return this.numHead;
+    }
+    public CoinThread(int threadId, int numIterations) {
+        this.threadId = threadId;
+        this.numIterations = numIterations;
+        this.rand = new Random();
+        this.numHead = 0;
+        System.out.println("Thread #" + this.threadId + " inited, get " + this.numIterations + " iterations.");
+    }
+}

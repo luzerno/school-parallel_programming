@@ -1,0 +1,10 @@
+public class CoinThread implements Runnable {
+    private int threadId;
+    private int numIterations;
+    public void run() {
+        
+    }
+    public CoinThread(int threadId) {
+        this.threadId = threadId;
+    }
+}

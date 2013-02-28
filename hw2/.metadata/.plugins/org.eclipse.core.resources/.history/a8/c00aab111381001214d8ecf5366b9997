@@ -1,0 +1,29 @@
+public class CoinFlipping {
+    private static int numThreads;
+    private static int numIterations;
+    private static CoinThread[] coinThreads;
+    private static void initCoinThreads() {
+    	coinThreads = new CoinThread[numThreads];
+    	
+    	
+    }
+    private static void parseArgs(String[] args) {
+        int size = args.length;  
+        if (size != 2) {
+            System.err.print("Usage: CoinFlip #threads #iterations\n");
+            System.exit(0);
+        }
+        try {
+            numThreads = Integer.parseInt(args[0]);
+            numIterations = Integer.parseInt(args[1]);
+        } catch (NumberFormatException e) {
+            System.err.print("Usage: CoinFlip #threads #iterations\n");
+        }
+    }
+    public static void main(String[] args) {
+        parseArgs(args);
+        System.out.print(numThreads);
+        System.out.print(numIterations);
+    }
+}
+

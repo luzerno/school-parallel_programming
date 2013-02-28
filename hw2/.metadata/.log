@@ -1,0 +1,60 @@
+!SESSION 2013-02-27 13:51:38.168 -----------------------------------------------
+eclipse.buildId=4.2.0.M20121227-2033
+java.version=1.7.0_09-icedtea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2013-02-27 13:52:42.697
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2013-02-27 13:52:42.697
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2013-02-27 13:52:42.697
+!MESSAGE Software being installed: Vrapper - Python Extensions (Optional, requires PyDev) 0.28.0 (net.sourceforge.vrapper.eclipse.pydev.feature.feature.group 0.28.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2013-02-27 13:52:42.697
+!MESSAGE Missing requirement: Vrapper - Python Extensions (Optional, requires PyDev) 0.28.0 (net.sourceforge.vrapper.eclipse.pydev.feature.feature.group 0.28.0) requires 'org.python.pydev 2.6.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2013-02-27 13:52:42.702
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2013-02-27 13:52:42.703
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2013-02-27 13:52:42.703
+!MESSAGE Software being installed: Vrapper - Python Extensions (Optional, requires PyDev) 0.28.0 (net.sourceforge.vrapper.eclipse.pydev.feature.feature.group 0.28.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2013-02-27 13:52:42.703
+!MESSAGE Missing requirement: Vrapper - Python Extensions (Optional, requires PyDev) 0.28.0 (net.sourceforge.vrapper.eclipse.pydev.feature.feature.group 0.28.0) requires 'org.python.pydev 2.6.0' but it could not be found
+!SESSION 2013-02-27 15:10:08.419 -----------------------------------------------
+eclipse.buildId=4.2.0.M20121227-2033
+java.version=1.7.0_09-icedtea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2013-02-27 18:49:47.933
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-02-27 18:49:47.933
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@6ba9fb02,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@649e7786,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2013-02-27 20:07:21.605 -----------------------------------------------
+eclipse.buildId=4.2.0.M20121227-2033
+java.version=1.7.0_09-icedtea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-02-27 20:07:39.116
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
