@@ -2,11 +2,11 @@ import java.util.Random;
 
 public class CoinThread implements Runnable {
     private int threadId;
-    private int numIterations;
-    private int numHead;
+    private long numIterations;
+    private long numHead;
     private Random rand;
     public void run() {
-    	for (int i = 0; i < numIterations; i++) {
+    	for (long i = 0; i < numIterations; i++) {
     		if (rand.nextInt(2) == 1) {
     			this.numHead++;
     		}
@@ -15,13 +15,13 @@ public class CoinThread implements Runnable {
     public int getThreadId() {
     	return this.threadId;
     }
-    public int getNumHead() {
+    public long getNumHead() {
     	return this.numHead;
     }
-    public int getNumIterations() {
+    public long getNumIterations() {
     	return this.numIterations;
     }
-    public CoinThread(int threadId, int numIterations) {
+    public CoinThread(int threadId, long numIterations) {
         this.threadId = threadId;
         this.numIterations = numIterations;
         this.rand = new Random();

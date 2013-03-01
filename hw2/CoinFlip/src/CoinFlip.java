@@ -1,6 +1,6 @@
 public class CoinFlip {
     private static int numThreads;
-    private static int numIterations;
+    private static long numIterations;
     private static CoinThread[] coinThreads;
     private static Thread[] threads;
     private static long startTime, endTime;
@@ -22,7 +22,7 @@ public class CoinFlip {
     	endTime = System.currentTimeMillis();
     }
     private static void collectResults() {
-    	int numHeads = 0;
+    	long numHeads = 0;
     	for (int i = 0; i < numThreads; i++) {
     		numHeads += coinThreads[i].getNumHead();
     		System.out.println("Thread #" + coinThreads[i].getThreadId() + ": " + coinThreads[i].getNumHead() + " heads in " + coinThreads[i].getNumIterations() + " tosses.");
@@ -32,12 +32,12 @@ public class CoinFlip {
     	
     }
     private static void initCoinThreads() {
-    	int numIterationsPerThread = numIterations / numThreads;
-    	int numRemainIterations = numIterations % numThreads;
+    	long numIterationsPerThread = numIterations / numThreads;
+    	long numRemainIterations = numIterations % numThreads;
     	coinThreads = new CoinThread[numThreads];
     	threads = new Thread[numThreads];
     	for (int i = 0; i < numThreads; i++) {
-    		int num = numIterationsPerThread;
+    		long num = numIterationsPerThread;
     		if (numRemainIterations > 0) {
     			num++;
     			numRemainIterations--;
@@ -55,7 +55,7 @@ public class CoinFlip {
         }
         try {
             numThreads = Integer.parseInt(args[0]);
-            numIterations = Integer.parseInt(args[1]);
+            numIterations = Long.parseLong(args[1]);
         } catch (NumberFormatException e) {
             System.err.print("Usage: CoinFlip #threads #iterations\n");
         }
