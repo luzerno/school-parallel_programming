@@ -63,8 +63,6 @@ public class CoinFlip {
     
     public static void main(String[] args) {
         parseArgs(args);
-        System.out.println(numThreads);
-        System.out.println(numIterations);
         initCoinThreads();
         flip();
         collectResults();

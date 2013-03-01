@@ -26,6 +26,6 @@ public class CoinThread implements Runnable {
         this.numIterations = numIterations;
         this.rand = new Random();
         this.numHead = 0;
-        System.out.println("Thread #" + this.threadId + " inited, get " + this.numIterations + " iterations.");
+//        System.out.println("Thread #" + this.threadId + " inited, get " + this.numIterations + " iterations.");
     }
 }
