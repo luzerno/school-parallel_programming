@@ -4,14 +4,14 @@ public class CoinFlip {
     private static CoinThread[] coinThreads;
     private static Thread[] threads;
     private static long startTime, endTime;
-    
+    private static long startupStartTime, startupEndTime;    
     
     private static void flip() {
     	startTime = System.currentTimeMillis();
     	for (int i = 0; i < numThreads; i++) {
     		threads[i].start();
     	}
-    	
+        startupEndTime = System.currentTimeMillis();	
     	for (int i = 0; i < numThreads; i++) {
     		try {
     			threads[i].join();
@@ -29,6 +29,7 @@ public class CoinFlip {
     	}
     	System.out.println(numHeads + " heads in " + numIterations + " coin tosses.");
     	System.out.println("Elapsed time: " + (endTime - startTime) + "ms");
+        System.out.println("Startup time: " + (startupEndTime - startTime) + "ms");
     	
     }
     private static void initCoinThreads() {
@@ -36,6 +37,7 @@ public class CoinFlip {
     	long numRemainIterations = numIterations % numThreads;
     	coinThreads = new CoinThread[numThreads];
     	threads = new Thread[numThreads];
+
     	for (int i = 0; i < numThreads; i++) {
     		long num = numIterationsPerThread;
     		if (numRemainIterations > 0) {
@@ -63,6 +65,7 @@ public class CoinFlip {
     
     public static void main(String[] args) {
         parseArgs(args);
+        startupStartTime = System.currentTimeMillis();
         initCoinThreads();
         flip();
         collectResults();
