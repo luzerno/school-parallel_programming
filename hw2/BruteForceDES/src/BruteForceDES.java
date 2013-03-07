@@ -53,7 +53,7 @@ public class BruteForceDES {
 	
 	private static void decrypt() {
 		System.out.println("Generated secret key " + key);
-		startTime = System.currentTimeMillis();
+		/* startTime = System.currentTimeMillis(); */
 		for (int i = 0; i < numThreads; i++) {
 			/* decryptThreads[i].setStartTime(startTime); */
 			threads[i].start();
@@ -72,6 +72,7 @@ public class BruteForceDES {
 	public static void main(String[] args) {
 		BruteForceDES.text = "Johns Hopkins afraid of the big bad wolf?";
 		parseArgs(args);
+		startTime = System.currentTimeMillis();
 		initDecryptThreads();
 		decrypt();
 	}

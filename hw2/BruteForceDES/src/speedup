@@ -1,936 +1,936 @@
 ************* thread = 1
-Generated secret key 555051
-Thread 0 StartKey: 0 EndKey: 1048575
-Thread 0 found decrypt key 555051 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 10299
-Generated secret key 969140
-Thread 0 StartKey: 0 EndKey: 1048575
-Thread 0 found decrypt key 969140 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 10044
-Generated secret key 78811
-Thread 0 StartKey: 0 EndKey: 1048575
-Thread 0 found decrypt key 78811 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 10054
-Generated secret key 928666
-Thread 0 StartKey: 0 EndKey: 1048575
-Thread 0 found decrypt key 928666 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 10252
-Generated secret key 344374
-Thread 0 StartKey: 0 EndKey: 1048575
-Thread 0 found decrypt key 344374 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 10195
+Generated secret key 21
+Thread 0 StartKey: 0 EndKey: 1023
+Thread 0 found decrypt key 21 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 128
+Generated secret key 447
+Thread 0 StartKey: 0 EndKey: 1023
+Thread 0 found decrypt key 447 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 98
+Generated secret key 867
+Thread 0 StartKey: 0 EndKey: 1023
+Thread 0 found decrypt key 867 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 100
+Generated secret key 525
+Thread 0 StartKey: 0 EndKey: 1023
+Thread 0 found decrypt key 525 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 104
+Generated secret key 573
+Thread 0 StartKey: 0 EndKey: 1023
+Thread 0 found decrypt key 573 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 104
 ************* thread = 2
-Generated secret key 17259
-Thread 0 StartKey: 0 EndKey: 524288
-Thread 1 StartKey: 524288 EndKey: 1048575
-Thread 0 found decrypt key 17259 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 6848
-Generated secret key 322414
-Thread 0 StartKey: 0 EndKey: 524288
-Thread 1 StartKey: 524288 EndKey: 1048575
-Thread 0 found decrypt key 322414 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 6651
-Generated secret key 149160
-Thread 0 StartKey: 0 EndKey: 524288
-Thread 1 StartKey: 524288 EndKey: 1048575
-Thread 0 found decrypt key 149160 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 6866
-Generated secret key 710512
-Thread 0 StartKey: 0 EndKey: 524288
-Thread 1 StartKey: 524288 EndKey: 1048575
-Thread 1 found decrypt key 710512 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 6662
-Generated secret key 119764
-Thread 0 StartKey: 0 EndKey: 524288
-Thread 1 StartKey: 524288 EndKey: 1048575
-Thread 0 found decrypt key 119764 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 6823
+Generated secret key 406
+Thread 0 StartKey: 0 EndKey: 512
+Thread 1 StartKey: 512 EndKey: 1023
+Thread 0 found decrypt key 406 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 77
+Generated secret key 712
+Thread 1 StartKey: 512 EndKey: 1023
+Thread 0 StartKey: 0 EndKey: 512
+Thread 1 found decrypt key 712 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 76
+Generated secret key 458
+Thread 0 StartKey: 0 EndKey: 512
+Thread 1 StartKey: 512 EndKey: 1023
+Thread 0 found decrypt key 458 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 82
+Generated secret key 990
+Thread 0 StartKey: 0 EndKey: 512
+Thread 1 StartKey: 512 EndKey: 1023
+Thread 1 found decrypt key 990 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 77
+Generated secret key 257
+Thread 1 StartKey: 512 EndKey: 1023
+Thread 0 StartKey: 0 EndKey: 512
+Thread 0 found decrypt key 257 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 77
 ************* thread = 3
-Generated secret key 502351
-Thread 0 StartKey: 0 EndKey: 349525
-Thread 1 StartKey: 349525 EndKey: 699050
-Thread 2 StartKey: 699050 EndKey: 1048575
-Thread 1 found decrypt key 502351 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 4754
-Generated secret key 895198
-Thread 0 StartKey: 0 EndKey: 349525
-Thread 1 StartKey: 349525 EndKey: 699050
-Thread 2 StartKey: 699050 EndKey: 1048575
-Thread 2 found decrypt key 895198 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 4752
-Generated secret key 129058
-Thread 0 StartKey: 0 EndKey: 349525
-Thread 1 StartKey: 349525 EndKey: 699050
-Thread 2 StartKey: 699050 EndKey: 1048575
-Thread 0 found decrypt key 129058 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 4870
-Generated secret key 600790
-Thread 1 StartKey: 349525 EndKey: 699050
-Thread 2 StartKey: 699050 EndKey: 1048575
-Thread 0 StartKey: 0 EndKey: 349525
-Thread 1 found decrypt key 600790 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 4822
-Generated secret key 805393
-Thread 2 StartKey: 699050 EndKey: 1048575
-Thread 1 StartKey: 349525 EndKey: 699050
-Thread 0 StartKey: 0 EndKey: 349525
-Thread 2 found decrypt key 805393 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 4652
+Generated secret key 590
+Thread 1 StartKey: 341 EndKey: 682
+Thread 0 StartKey: 0 EndKey: 341
+Thread 2 StartKey: 682 EndKey: 1023
+Thread 1 found decrypt key 590 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 75
+Generated secret key 323
+Thread 1 StartKey: 341 EndKey: 682
+Thread 0 StartKey: 0 EndKey: 341
+Thread 2 StartKey: 682 EndKey: 1023
+Thread 0 found decrypt key 323 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 75
+Generated secret key 258
+Thread 1 StartKey: 341 EndKey: 682
+Thread 0 StartKey: 0 EndKey: 341
+Thread 2 StartKey: 682 EndKey: 1023
+Thread 0 found decrypt key 258 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 72
+Generated secret key 83
+Thread 0 StartKey: 0 EndKey: 341
+Thread 1 StartKey: 341 EndKey: 682
+Thread 2 StartKey: 682 EndKey: 1023
+Thread 0 found decrypt key 83 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 74
+Generated secret key 528
+Thread 0 StartKey: 0 EndKey: 341
+Thread 1 StartKey: 341 EndKey: 682
+Thread 2 StartKey: 682 EndKey: 1023
+Thread 1 found decrypt key 528 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 73
 ************* thread = 4
-Generated secret key 764970
-Thread 0 StartKey: 0 EndKey: 262144
-Thread 1 StartKey: 262144 EndKey: 524288
-Thread 3 StartKey: 786432 EndKey: 1048575
-Thread 2 StartKey: 524288 EndKey: 786432
-Thread 2 found decrypt key 764970 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3656
-Generated secret key 686971
-Thread 0 StartKey: 0 EndKey: 262144
-Thread 1 StartKey: 262144 EndKey: 524288
-Thread 3 StartKey: 786432 EndKey: 1048575
-Thread 2 StartKey: 524288 EndKey: 786432
-Thread 2 found decrypt key 686971 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3805
-Generated secret key 1007781
-Thread 2 StartKey: 524288 EndKey: 786432
-Thread 1 StartKey: 262144 EndKey: 524288
-Thread 0 StartKey: 0 EndKey: 262144
-Thread 3 StartKey: 786432 EndKey: 1048575
-Thread 3 found decrypt key 1007781 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3708
-Generated secret key 200331
-Thread 0 StartKey: 0 EndKey: 262144
-Thread 1 StartKey: 262144 EndKey: 524288
-Thread 3 StartKey: 786432 EndKey: 1048575
-Thread 2 StartKey: 524288 EndKey: 786432
-Thread 0 found decrypt key 200331 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3694
-Generated secret key 457251
-Thread 0 StartKey: 0 EndKey: 262144
-Thread 1 StartKey: 262144 EndKey: 524288
-Thread 3 StartKey: 786432 EndKey: 1048575
-Thread 2 StartKey: 524288 EndKey: 786432
-Thread 1 found decrypt key 457251 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3759
+Generated secret key 700
+Thread 0 StartKey: 0 EndKey: 256
+Thread 1 StartKey: 256 EndKey: 512
+Thread 2 StartKey: 512 EndKey: 768
+Thread 3 StartKey: 768 EndKey: 1023
+Thread 2 found decrypt key 700 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 74
+Generated secret key 815
+Thread 0 StartKey: 0 EndKey: 256
+Thread 1 StartKey: 256 EndKey: 512
+Thread 3 StartKey: 768 EndKey: 1023
+Thread 2 StartKey: 512 EndKey: 768
+Thread 3 found decrypt key 815 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 74
+Generated secret key 476
+Thread 2 StartKey: 512 EndKey: 768
+Thread 0 StartKey: 0 EndKey: 256
+Thread 1 StartKey: 256 EndKey: 512
+Thread 3 StartKey: 768 EndKey: 1023
+Thread 1 found decrypt key 476 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 71
+Generated secret key 733
+Thread 1 StartKey: 256 EndKey: 512
+Thread 0 StartKey: 0 EndKey: 256
+Thread 3 StartKey: 768 EndKey: 1023
+Thread 2 StartKey: 512 EndKey: 768
+Thread 2 found decrypt key 733 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 88
+Generated secret key 629
+Thread 0 StartKey: 0 EndKey: 256
+Thread 1 StartKey: 256 EndKey: 512
+Thread 2 StartKey: 512 EndKey: 768
+Thread 3 StartKey: 768 EndKey: 1023
+Thread 2 found decrypt key 629 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 70
 ************* thread = 5
-Generated secret key 40683
-Thread 0 StartKey: 0 EndKey: 209715
-Thread 1 StartKey: 209715 EndKey: 419430
-Thread 2 StartKey: 419430 EndKey: 629145
-Thread 3 StartKey: 629145 EndKey: 838860
-Thread 4 StartKey: 838860 EndKey: 1048575
-Thread 0 found decrypt key 40683 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3026
-Generated secret key 503622
-Thread 0 StartKey: 0 EndKey: 209715
-Thread 1 StartKey: 209715 EndKey: 419430
-Thread 2 StartKey: 419430 EndKey: 629145
-Thread 3 StartKey: 629145 EndKey: 838860
-Thread 4 StartKey: 838860 EndKey: 1048575
-Thread 2 found decrypt key 503622 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3032
-Generated secret key 285303
-Thread 0 StartKey: 0 EndKey: 209715
-Thread 1 StartKey: 209715 EndKey: 419430
-Thread 2 StartKey: 419430 EndKey: 629145
-Thread 3 StartKey: 629145 EndKey: 838860
-Thread 4 StartKey: 838860 EndKey: 1048575
-Thread 1 found decrypt key 285303 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3096
-Generated secret key 172387
-Thread 0 StartKey: 0 EndKey: 209715
-Thread 1 StartKey: 209715 EndKey: 419430
-Thread 3 StartKey: 629145 EndKey: 838860
-Thread 2 StartKey: 419430 EndKey: 629145
-Thread 4 StartKey: 838860 EndKey: 1048575
-Thread 0 found decrypt key 172387 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3062
-Generated secret key 1769
-Thread 0 StartKey: 0 EndKey: 209715
-Thread 1 StartKey: 209715 EndKey: 419430
-Thread 3 StartKey: 629145 EndKey: 838860
-Thread 4 StartKey: 838860 EndKey: 1048575
-Thread 2 StartKey: 419430 EndKey: 629145
-Thread 0 found decrypt key 1769 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3085
+Generated secret key 658
+Thread 0 StartKey: 0 EndKey: 205
+Thread 1 StartKey: 205 EndKey: 410
+Thread 3 StartKey: 615 EndKey: 819
+Thread 2 StartKey: 410 EndKey: 615
+Thread 3 found decrypt key 658 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 4 StartKey: 819 EndKey: 1023
+Final elapsed time: 81
+Generated secret key 821
+Thread 0 StartKey: 0 EndKey: 205
+Thread 3 StartKey: 615 EndKey: 819
+Thread 1 StartKey: 205 EndKey: 410
+Thread 2 StartKey: 410 EndKey: 615
+Thread 4 StartKey: 819 EndKey: 1023
+Thread 4 found decrypt key 821 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 78
+Generated secret key 555
+Thread 0 StartKey: 0 EndKey: 205
+Thread 2 StartKey: 410 EndKey: 615
+Thread 1 StartKey: 205 EndKey: 410
+Thread 4 StartKey: 819 EndKey: 1023
+Thread 3 StartKey: 615 EndKey: 819
+Thread 2 found decrypt key 555 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 85
+Generated secret key 754
+Thread 0 StartKey: 0 EndKey: 205
+Thread 2 StartKey: 410 EndKey: 615
+Thread 1 StartKey: 205 EndKey: 410
+Thread 4 StartKey: 819 EndKey: 1023
+Thread 3 StartKey: 615 EndKey: 819
+Thread 3 found decrypt key 754 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 75
+Generated secret key 97
+Thread 0 StartKey: 0 EndKey: 205
+Thread 1 StartKey: 205 EndKey: 410
+Thread 2 StartKey: 410 EndKey: 615
+Thread 3 StartKey: 615 EndKey: 819
+Thread 4 StartKey: 819 EndKey: 1023
+Thread 0 found decrypt key 97 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 86
 ************* thread = 6
-Generated secret key 823314
-Thread 0 StartKey: 0 EndKey: 174763
-Thread 1 StartKey: 174763 EndKey: 349526
-Thread 2 StartKey: 349526 EndKey: 524289
-Thread 4 StartKey: 699051 EndKey: 873813
-Thread 3 StartKey: 524289 EndKey: 699051
-Thread 5 StartKey: 873813 EndKey: 1048575
-Thread 4 found decrypt key 823314 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2731
-Generated secret key 857775
-Thread 0 StartKey: 0 EndKey: 174763
-Thread 2 StartKey: 349526 EndKey: 524289
-Thread 1 StartKey: 174763 EndKey: 349526
-Thread 3 StartKey: 524289 EndKey: 699051
-Thread 4 StartKey: 699051 EndKey: 873813
-Thread 5 StartKey: 873813 EndKey: 1048575
-Thread 4 found decrypt key 857775 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2675
-Generated secret key 233514
-Thread 1 StartKey: 174763 EndKey: 349526
-Thread 0 StartKey: 0 EndKey: 174763
-Thread 4 StartKey: 699051 EndKey: 873813
-Thread 5 StartKey: 873813 EndKey: 1048575
-Thread 3 StartKey: 524289 EndKey: 699051
-Thread 2 StartKey: 349526 EndKey: 524289
-Thread 1 found decrypt key 233514 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2752
-Generated secret key 119687
-Thread 0 StartKey: 0 EndKey: 174763
-Thread 1 StartKey: 174763 EndKey: 349526
-Thread 3 StartKey: 524289 EndKey: 699051
-Thread 4 StartKey: 699051 EndKey: 873813
-Thread 5 StartKey: 873813 EndKey: 1048575
-Thread 2 StartKey: 349526 EndKey: 524289
-Thread 0 found decrypt key 119687 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2727
-Generated secret key 9784
-Thread 0 StartKey: 0 EndKey: 174763
-Thread 1 StartKey: 174763 EndKey: 349526
-Thread 3 StartKey: 524289 EndKey: 699051
-Thread 4 StartKey: 699051 EndKey: 873813
-Thread 5 StartKey: 873813 EndKey: 1048575
-Thread 2 StartKey: 349526 EndKey: 524289
-Thread 0 found decrypt key 9784 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2697
+Generated secret key 273
+Thread 0 StartKey: 0 EndKey: 171
+Thread 1 StartKey: 171 EndKey: 342
+Thread 2 StartKey: 342 EndKey: 513
+Thread 3 StartKey: 513 EndKey: 683
+Thread 4 StartKey: 683 EndKey: 853
+Thread 5 StartKey: 853 EndKey: 1023
+Thread 1 found decrypt key 273 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 75
+Generated secret key 26
+Thread 0 StartKey: 0 EndKey: 171
+Thread 1 StartKey: 171 EndKey: 342
+Thread 2 StartKey: 342 EndKey: 513
+Thread 3 StartKey: 513 EndKey: 683
+Thread 0 found decrypt key 26 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 4 StartKey: 683 EndKey: 853
+Thread 5 StartKey: 853 EndKey: 1023
+Final elapsed time: 80
+Generated secret key 187
+Thread 0 StartKey: 0 EndKey: 171
+Thread 1 StartKey: 171 EndKey: 342
+Thread 2 StartKey: 342 EndKey: 513
+Thread 3 StartKey: 513 EndKey: 683
+Thread 5 StartKey: 853 EndKey: 1023
+Thread 1 found decrypt key 187 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 4 StartKey: 683 EndKey: 853
+Final elapsed time: 69
+Generated secret key 275
+Thread 0 StartKey: 0 EndKey: 171
+Thread 1 StartKey: 171 EndKey: 342
+Thread 2 StartKey: 342 EndKey: 513
+Thread 3 StartKey: 513 EndKey: 683
+Thread 4 StartKey: 683 EndKey: 853
+Thread 5 StartKey: 853 EndKey: 1023
+Thread 1 found decrypt key 275 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 81
+Generated secret key 919
+Thread 0 StartKey: 0 EndKey: 171
+Thread 1 StartKey: 171 EndKey: 342
+Thread 2 StartKey: 342 EndKey: 513
+Thread 3 StartKey: 513 EndKey: 683
+Thread 5 StartKey: 853 EndKey: 1023
+Thread 4 StartKey: 683 EndKey: 853
+Thread 5 found decrypt key 919 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 86
 ************* thread = 7
-Generated secret key 559773
-Thread 0 StartKey: 0 EndKey: 149797
-Thread 1 StartKey: 149797 EndKey: 299594
-Thread 2 StartKey: 299594 EndKey: 449391
-Thread 4 StartKey: 599187 EndKey: 748983
-Thread 3 StartKey: 449391 EndKey: 599187
-Thread 5 StartKey: 748983 EndKey: 898779
-Thread 6 StartKey: 898779 EndKey: 1048575
-Thread 3 found decrypt key 559773 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2575
-Generated secret key 503013
-Thread 1 StartKey: 149797 EndKey: 299594
-Thread 0 StartKey: 0 EndKey: 149797
-Thread 3 StartKey: 449391 EndKey: 599187
-Thread 4 StartKey: 599187 EndKey: 748983
-Thread 6 StartKey: 898779 EndKey: 1048575
-Thread 2 StartKey: 299594 EndKey: 449391
-Thread 5 StartKey: 748983 EndKey: 898779
-Thread 3 found decrypt key 503013 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2689
-Generated secret key 44594
-Thread 0 StartKey: 0 EndKey: 149797
-Thread 1 StartKey: 149797 EndKey: 299594
-Thread 2 StartKey: 299594 EndKey: 449391
-Thread 4 StartKey: 599187 EndKey: 748983
-Thread 5 StartKey: 748983 EndKey: 898779
-Thread 6 StartKey: 898779 EndKey: 1048575
-Thread 3 StartKey: 449391 EndKey: 599187
-Thread 0 found decrypt key 44594 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2695
-Generated secret key 11340
-Thread 0 StartKey: 0 EndKey: 149797
-Thread 1 StartKey: 149797 EndKey: 299594
-Thread 3 StartKey: 449391 EndKey: 599187
-Thread 5 StartKey: 748983 EndKey: 898779
-Thread 6 StartKey: 898779 EndKey: 1048575
-Thread 2 StartKey: 299594 EndKey: 449391
-Thread 4 StartKey: 599187 EndKey: 748983
-Thread 0 found decrypt key 11340 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2630
-Generated secret key 13848
-Thread 0 StartKey: 0 EndKey: 149797
-Thread 1 StartKey: 149797 EndKey: 299594
-Thread 3 StartKey: 449391 EndKey: 599187
-Thread 5 StartKey: 748983 EndKey: 898779
-Thread 6 StartKey: 898779 EndKey: 1048575
-Thread 4 StartKey: 599187 EndKey: 748983
-Thread 2 StartKey: 299594 EndKey: 449391
-Thread 0 found decrypt key 13848 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2699
+Generated secret key 195
+Thread 1 StartKey: 147 EndKey: 293
+Thread 0 StartKey: 0 EndKey: 147
+Thread 2 StartKey: 293 EndKey: 439
+Thread 3 StartKey: 439 EndKey: 585
+Thread 4 StartKey: 585 EndKey: 731
+Thread 1 found decrypt key 195 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 5 StartKey: 731 EndKey: 877
+Thread 6 StartKey: 877 EndKey: 1023
+Final elapsed time: 86
+Generated secret key 911
+Thread 2 StartKey: 293 EndKey: 439
+Thread 0 StartKey: 0 EndKey: 147
+Thread 1 StartKey: 147 EndKey: 293
+Thread 3 StartKey: 439 EndKey: 585
+Thread 4 StartKey: 585 EndKey: 731
+Thread 5 StartKey: 731 EndKey: 877
+Thread 6 StartKey: 877 EndKey: 1023
+Thread 6 found decrypt key 911 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 85
+Generated secret key 957
+Thread 1 StartKey: 147 EndKey: 293
+Thread 0 StartKey: 0 EndKey: 147
+Thread 2 StartKey: 293 EndKey: 439
+Thread 3 StartKey: 439 EndKey: 585
+Thread 5 StartKey: 731 EndKey: 877
+Thread 4 StartKey: 585 EndKey: 731
+Thread 6 StartKey: 877 EndKey: 1023
+Thread 6 found decrypt key 957 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 86
+Generated secret key 132
+Thread 0 StartKey: 0 EndKey: 147
+Thread 1 StartKey: 147 EndKey: 293
+Thread 2 StartKey: 293 EndKey: 439
+Thread 3 StartKey: 439 EndKey: 585
+Thread 4 StartKey: 585 EndKey: 731
+Thread 5 StartKey: 731 EndKey: 877
+Thread 6 StartKey: 877 EndKey: 1023
+Thread 0 found decrypt key 132 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 90
+Generated secret key 385
+Thread 1 StartKey: 147 EndKey: 293
+Thread 0 StartKey: 0 EndKey: 147
+Thread 3 StartKey: 439 EndKey: 585
+Thread 2 StartKey: 293 EndKey: 439
+Thread 4 StartKey: 585 EndKey: 731
+Thread 6 StartKey: 877 EndKey: 1023
+Thread 5 StartKey: 731 EndKey: 877
+Thread 2 found decrypt key 385 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 87
 ************* thread = 8
-Generated secret key 207135
-Thread 1 StartKey: 131072 EndKey: 262144
-Thread 2 StartKey: 262144 EndKey: 393216
-Thread 0 StartKey: 0 EndKey: 131072
-Thread 3 StartKey: 393216 EndKey: 524288
-Thread 4 StartKey: 524288 EndKey: 655360
-Thread 5 StartKey: 655360 EndKey: 786432
-Thread 6 StartKey: 786432 EndKey: 917504
-Thread 7 StartKey: 917504 EndKey: 1048575
-Thread 1 found decrypt key 207135 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2643
-Generated secret key 2875
-Thread 0 StartKey: 0 EndKey: 131072
-Thread 1 StartKey: 131072 EndKey: 262144
-Thread 3 StartKey: 393216 EndKey: 524288
-Thread 4 StartKey: 524288 EndKey: 655360
-Thread 5 StartKey: 655360 EndKey: 786432
-Thread 6 StartKey: 786432 EndKey: 917504
-Thread 7 StartKey: 917504 EndKey: 1048575
-Thread 2 StartKey: 262144 EndKey: 393216
-Thread 0 found decrypt key 2875 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2578
-Generated secret key 972089
-Thread 0 StartKey: 0 EndKey: 131072
-Thread 1 StartKey: 131072 EndKey: 262144
-Thread 3 StartKey: 393216 EndKey: 524288
-Thread 4 StartKey: 524288 EndKey: 655360
-Thread 5 StartKey: 655360 EndKey: 786432
-Thread 2 StartKey: 262144 EndKey: 393216
-Thread 6 StartKey: 786432 EndKey: 917504
-Thread 7 StartKey: 917504 EndKey: 1048575
-Thread 7 found decrypt key 972089 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2577
-Generated secret key 527666
-Thread 0 StartKey: 0 EndKey: 131072
-Thread 1 StartKey: 131072 EndKey: 262144
-Thread 3 StartKey: 393216 EndKey: 524288
-Thread 4 StartKey: 524288 EndKey: 655360
-Thread 2 StartKey: 262144 EndKey: 393216
-Thread 6 StartKey: 786432 EndKey: 917504
-Thread 7 StartKey: 917504 EndKey: 1048575
-Thread 5 StartKey: 655360 EndKey: 786432
-Thread 4 found decrypt key 527666 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2587
-Generated secret key 663270
-Thread 0 StartKey: 0 EndKey: 131072
-Thread 1 StartKey: 131072 EndKey: 262144
-Thread 3 StartKey: 393216 EndKey: 524288
-Thread 4 StartKey: 524288 EndKey: 655360
-Thread 5 StartKey: 655360 EndKey: 786432
-Thread 6 StartKey: 786432 EndKey: 917504
-Thread 7 StartKey: 917504 EndKey: 1048575
-Thread 2 StartKey: 262144 EndKey: 393216
-Thread 5 found decrypt key 663270 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2583
+Generated secret key 308
+Thread 0 StartKey: 0 EndKey: 128
+Thread 2 StartKey: 256 EndKey: 384
+Thread 1 StartKey: 128 EndKey: 256
+Thread 3 StartKey: 384 EndKey: 512
+Thread 4 StartKey: 512 EndKey: 640
+Thread 5 StartKey: 640 EndKey: 768
+Thread 6 StartKey: 768 EndKey: 896
+Thread 7 StartKey: 896 EndKey: 1023
+Thread 2 found decrypt key 308 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 85
+Generated secret key 194
+Thread 0 StartKey: 0 EndKey: 128
+Thread 1 StartKey: 128 EndKey: 256
+Thread 2 StartKey: 256 EndKey: 384
+Thread 3 StartKey: 384 EndKey: 512
+Thread 4 StartKey: 512 EndKey: 640
+Thread 5 StartKey: 640 EndKey: 768
+Thread 6 StartKey: 768 EndKey: 896
+Thread 7 StartKey: 896 EndKey: 1023
+Thread 1 found decrypt key 194 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 84
+Generated secret key 567
+Thread 0 StartKey: 0 EndKey: 128
+Thread 1 StartKey: 128 EndKey: 256
+Thread 3 StartKey: 384 EndKey: 512
+Thread 5 StartKey: 640 EndKey: 768
+Thread 6 StartKey: 768 EndKey: 896
+Thread 4 StartKey: 512 EndKey: 640
+Thread 2 StartKey: 256 EndKey: 384
+Thread 4 found decrypt key 567 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 7 StartKey: 896 EndKey: 1023
+Final elapsed time: 92
+Generated secret key 196
+Thread 1 StartKey: 128 EndKey: 256
+Thread 0 StartKey: 0 EndKey: 128
+Thread 3 StartKey: 384 EndKey: 512
+Thread 2 StartKey: 256 EndKey: 384
+Thread 4 StartKey: 512 EndKey: 640
+Thread 5 StartKey: 640 EndKey: 768
+Thread 1 found decrypt key 196 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 6 StartKey: 768 EndKey: 896
+Thread 7 StartKey: 896 EndKey: 1023
+Final elapsed time: 84
+Generated secret key 1006
+Thread 0 StartKey: 0 EndKey: 128
+Thread 2 StartKey: 256 EndKey: 384
+Thread 1 StartKey: 128 EndKey: 256
+Thread 3 StartKey: 384 EndKey: 512
+Thread 5 StartKey: 640 EndKey: 768
+Thread 4 StartKey: 512 EndKey: 640
+Thread 6 StartKey: 768 EndKey: 896
+Thread 7 StartKey: 896 EndKey: 1023
+Thread 7 found decrypt key 1006 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 87
 ************* thread = 9
-Generated secret key 708662
-Thread 0 StartKey: 0 EndKey: 116509
-Thread 1 StartKey: 116509 EndKey: 233018
-Thread 2 StartKey: 233018 EndKey: 349527
-Thread 3 StartKey: 349527 EndKey: 466035
-Thread 4 StartKey: 466035 EndKey: 582543
-Thread 5 StartKey: 582543 EndKey: 699051
-Thread 7 StartKey: 815559 EndKey: 932067
-Thread 6 StartKey: 699051 EndKey: 815559
-Thread 8 StartKey: 932067 EndKey: 1048575
-Thread 6 found decrypt key 708662 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2811
-Generated secret key 806476
-Thread 0 StartKey: 0 EndKey: 116509
-Thread 1 StartKey: 116509 EndKey: 233018
-Thread 3 StartKey: 349527 EndKey: 466035
-Thread 4 StartKey: 466035 EndKey: 582543
-Thread 5 StartKey: 582543 EndKey: 699051
-Thread 6 StartKey: 699051 EndKey: 815559
-Thread 7 StartKey: 815559 EndKey: 932067
-Thread 8 StartKey: 932067 EndKey: 1048575
-Thread 2 StartKey: 233018 EndKey: 349527
-Thread 6 found decrypt key 806476 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3015
-Generated secret key 440075
-Thread 0 StartKey: 0 EndKey: 116509
-Thread 1 StartKey: 116509 EndKey: 233018
-Thread 2 StartKey: 233018 EndKey: 349527
-Thread 3 StartKey: 349527 EndKey: 466035
-Thread 4 StartKey: 466035 EndKey: 582543
-Thread 5 StartKey: 582543 EndKey: 699051
-Thread 6 StartKey: 699051 EndKey: 815559
-Thread 7 StartKey: 815559 EndKey: 932067
-Thread 8 StartKey: 932067 EndKey: 1048575
-Thread 3 found decrypt key 440075 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2909
-Generated secret key 845002
-Thread 0 StartKey: 0 EndKey: 116509
-Thread 1 StartKey: 116509 EndKey: 233018
-Thread 3 StartKey: 349527 EndKey: 466035
-Thread 4 StartKey: 466035 EndKey: 582543
-Thread 5 StartKey: 582543 EndKey: 699051
-Thread 6 StartKey: 699051 EndKey: 815559
-Thread 7 StartKey: 815559 EndKey: 932067
-Thread 8 StartKey: 932067 EndKey: 1048575
-Thread 2 StartKey: 233018 EndKey: 349527
-Thread 7 found decrypt key 845002 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2792
-Generated secret key 592590
-Thread 0 StartKey: 0 EndKey: 116509
-Thread 1 StartKey: 116509 EndKey: 233018
-Thread 3 StartKey: 349527 EndKey: 466035
-Thread 5 StartKey: 582543 EndKey: 699051
-Thread 6 StartKey: 699051 EndKey: 815559
-Thread 2 StartKey: 233018 EndKey: 349527
-Thread 8 StartKey: 932067 EndKey: 1048575
-Thread 7 StartKey: 815559 EndKey: 932067
-Thread 4 StartKey: 466035 EndKey: 582543
-Thread 5 found decrypt key 592590 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2765
+Generated secret key 1019
+Thread 0 StartKey: 0 EndKey: 114
+Thread 1 StartKey: 114 EndKey: 228
+Thread 2 StartKey: 228 EndKey: 342
+Thread 3 StartKey: 342 EndKey: 456
+Thread 5 StartKey: 570 EndKey: 684
+Thread 4 StartKey: 456 EndKey: 570
+Thread 7 StartKey: 797 EndKey: 910
+Thread 8 StartKey: 910 EndKey: 1023
+Thread 6 StartKey: 684 EndKey: 797
+Thread 8 found decrypt key 1019 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 82
+Generated secret key 876
+Thread 1 StartKey: 114 EndKey: 228
+Thread 0 StartKey: 0 EndKey: 114
+Thread 2 StartKey: 228 EndKey: 342
+Thread 3 StartKey: 342 EndKey: 456
+Thread 4 StartKey: 456 EndKey: 570
+Thread 5 StartKey: 570 EndKey: 684
+Thread 6 StartKey: 684 EndKey: 797
+Thread 7 StartKey: 797 EndKey: 910
+Thread 8 StartKey: 910 EndKey: 1023
+Thread 7 found decrypt key 876 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 79
+Generated secret key 820
+Thread 1 StartKey: 114 EndKey: 228
+Thread 0 StartKey: 0 EndKey: 114
+Thread 2 StartKey: 228 EndKey: 342
+Thread 3 StartKey: 342 EndKey: 456
+Thread 5 StartKey: 570 EndKey: 684
+Thread 6 StartKey: 684 EndKey: 797
+Thread 4 StartKey: 456 EndKey: 570
+Thread 7 StartKey: 797 EndKey: 910
+Thread 7 found decrypt key 820 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 8 StartKey: 910 EndKey: 1023
+Final elapsed time: 86
+Generated secret key 578
+Thread 0 StartKey: 0 EndKey: 114
+Thread 1 StartKey: 114 EndKey: 228
+Thread 2 StartKey: 228 EndKey: 342
+Thread 3 StartKey: 342 EndKey: 456
+Thread 4 StartKey: 456 EndKey: 570
+Thread 5 StartKey: 570 EndKey: 684
+Thread 6 StartKey: 684 EndKey: 797
+Thread 5 found decrypt key 578 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 7 StartKey: 797 EndKey: 910
+Thread 8 StartKey: 910 EndKey: 1023
+Final elapsed time: 82
+Generated secret key 117
+Thread 0 StartKey: 0 EndKey: 114
+Thread 1 StartKey: 114 EndKey: 228
+Thread 1 found decrypt key 117 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 2 StartKey: 228 EndKey: 342
+Thread 3 StartKey: 342 EndKey: 456
+Thread 5 StartKey: 570 EndKey: 684
+Thread 4 StartKey: 456 EndKey: 570
+Thread 6 StartKey: 684 EndKey: 797
+Thread 7 StartKey: 797 EndKey: 910
+Thread 8 StartKey: 910 EndKey: 1023
+Final elapsed time: 85
 ************* thread = 10
-Generated secret key 630460
-Thread 0 StartKey: 0 EndKey: 104858
-Thread 1 StartKey: 104858 EndKey: 209716
-Thread 3 StartKey: 314574 EndKey: 419432
-Thread 4 StartKey: 419432 EndKey: 524290
-Thread 5 StartKey: 524290 EndKey: 629147
-Thread 6 StartKey: 629147 EndKey: 734004
-Thread 7 StartKey: 734004 EndKey: 838861
-Thread 8 StartKey: 838861 EndKey: 943718
-Thread 2 StartKey: 209716 EndKey: 314574
-Thread 9 StartKey: 943718 EndKey: 1048575
-Thread 6 found decrypt key 630460 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2926
-Generated secret key 111783
-Thread 0 StartKey: 0 EndKey: 104858
-Thread 1 StartKey: 104858 EndKey: 209716
-Thread 2 StartKey: 209716 EndKey: 314574
-Thread 4 StartKey: 419432 EndKey: 524290
-Thread 6 StartKey: 629147 EndKey: 734004
-Thread 3 StartKey: 314574 EndKey: 419432
-Thread 7 StartKey: 734004 EndKey: 838861
-Thread 8 StartKey: 838861 EndKey: 943718
-Thread 5 StartKey: 524290 EndKey: 629147
-Thread 9 StartKey: 943718 EndKey: 1048575
-Thread 1 found decrypt key 111783 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2864
-Generated secret key 407726
-Thread 0 StartKey: 0 EndKey: 104858
-Thread 1 StartKey: 104858 EndKey: 209716
-Thread 2 StartKey: 209716 EndKey: 314574
-Thread 4 StartKey: 419432 EndKey: 524290
-Thread 5 StartKey: 524290 EndKey: 629147
-Thread 6 StartKey: 629147 EndKey: 734004
-Thread 8 StartKey: 838861 EndKey: 943718
-Thread 9 StartKey: 943718 EndKey: 1048575
-Thread 3 StartKey: 314574 EndKey: 419432
-Thread 7 StartKey: 734004 EndKey: 838861
-Thread 3 found decrypt key 407726 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3009
-Generated secret key 9433
-Thread 0 StartKey: 0 EndKey: 104858
-Thread 1 StartKey: 104858 EndKey: 209716
-Thread 3 StartKey: 314574 EndKey: 419432
-Thread 4 StartKey: 419432 EndKey: 524290
-Thread 5 StartKey: 524290 EndKey: 629147
-Thread 6 StartKey: 629147 EndKey: 734004
-Thread 7 StartKey: 734004 EndKey: 838861
-Thread 2 StartKey: 209716 EndKey: 314574
-Thread 8 StartKey: 838861 EndKey: 943718
-Thread 9 StartKey: 943718 EndKey: 1048575
-Thread 0 found decrypt key 9433 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2873
-Generated secret key 491097
-Thread 0 StartKey: 0 EndKey: 104858
-Thread 1 StartKey: 104858 EndKey: 209716
-Thread 3 StartKey: 314574 EndKey: 419432
-Thread 4 StartKey: 419432 EndKey: 524290
-Thread 5 StartKey: 524290 EndKey: 629147
-Thread 6 StartKey: 629147 EndKey: 734004
-Thread 2 StartKey: 209716 EndKey: 314574
-Thread 7 StartKey: 734004 EndKey: 838861
-Thread 8 StartKey: 838861 EndKey: 943718
-Thread 9 StartKey: 943718 EndKey: 1048575
-Thread 4 found decrypt key 491097 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2951
+Generated secret key 697
+Thread 0 StartKey: 0 EndKey: 103
+Thread 2 StartKey: 206 EndKey: 309
+Thread 1 StartKey: 103 EndKey: 206
+Thread 4 StartKey: 411 EndKey: 513
+Thread 3 StartKey: 309 EndKey: 411
+Thread 5 StartKey: 513 EndKey: 615
+Thread 6 StartKey: 615 EndKey: 717
+Thread 7 StartKey: 717 EndKey: 819
+Thread 8 StartKey: 819 EndKey: 921
+Thread 9 StartKey: 921 EndKey: 1023
+Thread 6 found decrypt key 697 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 88
+Generated secret key 490
+Thread 0 StartKey: 0 EndKey: 103
+Thread 2 StartKey: 206 EndKey: 309
+Thread 1 StartKey: 103 EndKey: 206
+Thread 3 StartKey: 309 EndKey: 411
+Thread 6 StartKey: 615 EndKey: 717
+Thread 4 StartKey: 411 EndKey: 513
+Thread 7 StartKey: 717 EndKey: 819
+Thread 5 StartKey: 513 EndKey: 615
+Thread 8 StartKey: 819 EndKey: 921
+Thread 9 StartKey: 921 EndKey: 1023
+Thread 4 found decrypt key 490 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 87
+Generated secret key 945
+Thread 0 StartKey: 0 EndKey: 103
+Thread 1 StartKey: 103 EndKey: 206
+Thread 2 StartKey: 206 EndKey: 309
+Thread 3 StartKey: 309 EndKey: 411
+Thread 5 StartKey: 513 EndKey: 615
+Thread 4 StartKey: 411 EndKey: 513
+Thread 6 StartKey: 615 EndKey: 717
+Thread 7 StartKey: 717 EndKey: 819
+Thread 8 StartKey: 819 EndKey: 921
+Thread 9 StartKey: 921 EndKey: 1023
+Thread 9 found decrypt key 945 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 90
+Generated secret key 503
+Thread 0 StartKey: 0 EndKey: 103
+Thread 1 StartKey: 103 EndKey: 206
+Thread 3 StartKey: 309 EndKey: 411
+Thread 2 StartKey: 206 EndKey: 309
+Thread 4 StartKey: 411 EndKey: 513
+Thread 5 StartKey: 513 EndKey: 615
+Thread 6 StartKey: 615 EndKey: 717
+Thread 7 StartKey: 717 EndKey: 819
+Thread 8 StartKey: 819 EndKey: 921
+Thread 9 StartKey: 921 EndKey: 1023
+Thread 4 found decrypt key 503 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 87
+Generated secret key 168
+Thread 0 StartKey: 0 EndKey: 103
+Thread 2 StartKey: 206 EndKey: 309
+Thread 3 StartKey: 309 EndKey: 411
+Thread 1 StartKey: 103 EndKey: 206
+Thread 4 StartKey: 411 EndKey: 513
+Thread 5 StartKey: 513 EndKey: 615
+Thread 6 StartKey: 615 EndKey: 717
+Thread 7 StartKey: 717 EndKey: 819
+Thread 8 StartKey: 819 EndKey: 921
+Thread 9 StartKey: 921 EndKey: 1023
+Thread 1 found decrypt key 168 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 74
 ************* thread = 11
-Generated secret key 124708
-Thread 0 StartKey: 0 EndKey: 95325
-Thread 2 StartKey: 190650 EndKey: 285975
-Thread 1 StartKey: 95325 EndKey: 190650
-Thread 4 StartKey: 381300 EndKey: 476625
-Thread 5 StartKey: 476625 EndKey: 571950
-Thread 6 StartKey: 571950 EndKey: 667275
-Thread 7 StartKey: 667275 EndKey: 762600
-Thread 8 StartKey: 762600 EndKey: 857925
-Thread 3 StartKey: 285975 EndKey: 381300
-Thread 10 StartKey: 953250 EndKey: 1048575
-Thread 9 StartKey: 857925 EndKey: 953250
-Thread 1 found decrypt key 124708 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2825
-Generated secret key 403582
-Thread 0 StartKey: 0 EndKey: 95325
-Thread 1 StartKey: 95325 EndKey: 190650
-Thread 2 StartKey: 190650 EndKey: 285975
-Thread 3 StartKey: 285975 EndKey: 381300
-Thread 5 StartKey: 476625 EndKey: 571950
-Thread 6 StartKey: 571950 EndKey: 667275
-Thread 4 StartKey: 381300 EndKey: 476625
-Thread 7 StartKey: 667275 EndKey: 762600
-Thread 8 StartKey: 762600 EndKey: 857925
-Thread 9 StartKey: 857925 EndKey: 953250
-Thread 10 StartKey: 953250 EndKey: 1048575
-Thread 4 found decrypt key 403582 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3044
-Generated secret key 373837
-Thread 0 StartKey: 0 EndKey: 95325
-Thread 1 StartKey: 95325 EndKey: 190650
-Thread 3 StartKey: 285975 EndKey: 381300
-Thread 2 StartKey: 190650 EndKey: 285975
-Thread 4 StartKey: 381300 EndKey: 476625
-Thread 5 StartKey: 476625 EndKey: 571950
-Thread 6 StartKey: 571950 EndKey: 667275
-Thread 7 StartKey: 667275 EndKey: 762600
-Thread 9 StartKey: 857925 EndKey: 953250
-Thread 8 StartKey: 762600 EndKey: 857925
-Thread 10 StartKey: 953250 EndKey: 1048575
-Thread 3 found decrypt key 373837 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2970
-Generated secret key 1037353
-Thread 0 StartKey: 0 EndKey: 95325
-Thread 1 StartKey: 95325 EndKey: 190650
-Thread 3 StartKey: 285975 EndKey: 381300
-Thread 4 StartKey: 381300 EndKey: 476625
-Thread 5 StartKey: 476625 EndKey: 571950
-Thread 6 StartKey: 571950 EndKey: 667275
-Thread 2 StartKey: 190650 EndKey: 285975
-Thread 8 StartKey: 762600 EndKey: 857925
-Thread 9 StartKey: 857925 EndKey: 953250
-Thread 10 StartKey: 953250 EndKey: 1048575
-Thread 7 StartKey: 667275 EndKey: 762600
-Thread 10 found decrypt key 1037353 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2931
-Generated secret key 768630
-Thread 0 StartKey: 0 EndKey: 95325
-Thread 1 StartKey: 95325 EndKey: 190650
-Thread 3 StartKey: 285975 EndKey: 381300
-Thread 4 StartKey: 381300 EndKey: 476625
-Thread 5 StartKey: 476625 EndKey: 571950
-Thread 7 StartKey: 667275 EndKey: 762600
-Thread 2 StartKey: 190650 EndKey: 285975
-Thread 8 StartKey: 762600 EndKey: 857925
-Thread 9 StartKey: 857925 EndKey: 953250
-Thread 10 StartKey: 953250 EndKey: 1048575
-Thread 6 StartKey: 571950 EndKey: 667275
-Thread 8 found decrypt key 768630 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2949
+Generated secret key 960
+Thread 0 StartKey: 0 EndKey: 93
+Thread 1 StartKey: 93 EndKey: 186
+Thread 2 StartKey: 186 EndKey: 279
+Thread 5 StartKey: 465 EndKey: 558
+Thread 4 StartKey: 372 EndKey: 465
+Thread 3 StartKey: 279 EndKey: 372
+Thread 6 StartKey: 558 EndKey: 651
+Thread 7 StartKey: 651 EndKey: 744
+Thread 8 StartKey: 744 EndKey: 837
+Thread 9 StartKey: 837 EndKey: 930
+Thread 10 StartKey: 930 EndKey: 1023
+Thread 10 found decrypt key 960 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 79
+Generated secret key 371
+Thread 1 StartKey: 93 EndKey: 186
+Thread 0 StartKey: 0 EndKey: 93
+Thread 2 StartKey: 186 EndKey: 279
+Thread 3 StartKey: 279 EndKey: 372
+Thread 4 StartKey: 372 EndKey: 465
+Thread 5 StartKey: 465 EndKey: 558
+Thread 6 StartKey: 558 EndKey: 651
+Thread 7 StartKey: 651 EndKey: 744
+Thread 9 StartKey: 837 EndKey: 930
+Thread 8 StartKey: 744 EndKey: 837
+Thread 10 StartKey: 930 EndKey: 1023
+Thread 3 found decrypt key 371 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 87
+Generated secret key 307
+Thread 2 StartKey: 186 EndKey: 279
+Thread 0 StartKey: 0 EndKey: 93
+Thread 1 StartKey: 93 EndKey: 186
+Thread 5 StartKey: 465 EndKey: 558
+Thread 3 StartKey: 279 EndKey: 372
+Thread 4 StartKey: 372 EndKey: 465
+Thread 6 StartKey: 558 EndKey: 651
+Thread 7 StartKey: 651 EndKey: 744
+Thread 3 found decrypt key 307 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 8 StartKey: 744 EndKey: 837
+Thread 9 StartKey: 837 EndKey: 930
+Thread 10 StartKey: 930 EndKey: 1023
+Final elapsed time: 81
+Generated secret key 543
+Thread 0 StartKey: 0 EndKey: 93
+Thread 1 StartKey: 93 EndKey: 186
+Thread 2 StartKey: 186 EndKey: 279
+Thread 3 StartKey: 279 EndKey: 372
+Thread 4 StartKey: 372 EndKey: 465
+Thread 5 StartKey: 465 EndKey: 558
+Thread 6 StartKey: 558 EndKey: 651
+Thread 7 StartKey: 651 EndKey: 744
+Thread 8 StartKey: 744 EndKey: 837
+Thread 5 found decrypt key 543 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 9 StartKey: 837 EndKey: 930
+Thread 10 StartKey: 930 EndKey: 1023
+Final elapsed time: 81
+Generated secret key 717
+Thread 1 StartKey: 93 EndKey: 186
+Thread 0 StartKey: 0 EndKey: 93
+Thread 2 StartKey: 186 EndKey: 279
+Thread 3 StartKey: 279 EndKey: 372
+Thread 5 StartKey: 465 EndKey: 558
+Thread 4 StartKey: 372 EndKey: 465
+Thread 6 StartKey: 558 EndKey: 651
+Thread 7 StartKey: 651 EndKey: 744
+Thread 8 StartKey: 744 EndKey: 837
+Thread 9 StartKey: 837 EndKey: 930
+Thread 10 StartKey: 930 EndKey: 1023
+Thread 7 found decrypt key 717 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 81
 ************* thread = 12
-Generated secret key 150765
-Thread 0 StartKey: 0 EndKey: 87382
-Thread 1 StartKey: 87382 EndKey: 174764
-Thread 3 StartKey: 262146 EndKey: 349527
-Thread 2 StartKey: 174764 EndKey: 262146
-Thread 4 StartKey: 349527 EndKey: 436908
-Thread 5 StartKey: 436908 EndKey: 524289
-Thread 6 StartKey: 524289 EndKey: 611670
-Thread 7 StartKey: 611670 EndKey: 699051
-Thread 8 StartKey: 699051 EndKey: 786432
-Thread 9 StartKey: 786432 EndKey: 873813
-Thread 11 StartKey: 961194 EndKey: 1048575
-Thread 10 StartKey: 873813 EndKey: 961194
-Thread 1 found decrypt key 150765 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3332
-Generated secret key 215748
-Thread 1 StartKey: 87382 EndKey: 174764
-Thread 2 StartKey: 174764 EndKey: 262146
-Thread 0 StartKey: 0 EndKey: 87382
-Thread 3 StartKey: 262146 EndKey: 349527
-Thread 4 StartKey: 349527 EndKey: 436908
-Thread 5 StartKey: 436908 EndKey: 524289
-Thread 7 StartKey: 611670 EndKey: 699051
-Thread 8 StartKey: 699051 EndKey: 786432
-Thread 6 StartKey: 524289 EndKey: 611670
-Thread 9 StartKey: 786432 EndKey: 873813
-Thread 10 StartKey: 873813 EndKey: 961194
-Thread 11 StartKey: 961194 EndKey: 1048575
-Thread 2 found decrypt key 215748 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2863
-Generated secret key 645865
-Thread 0 StartKey: 0 EndKey: 87382
-Thread 1 StartKey: 87382 EndKey: 174764
-Thread 2 StartKey: 174764 EndKey: 262146
-Thread 4 StartKey: 349527 EndKey: 436908
-Thread 3 StartKey: 262146 EndKey: 349527
-Thread 5 StartKey: 436908 EndKey: 524289
-Thread 6 StartKey: 524289 EndKey: 611670
-Thread 7 StartKey: 611670 EndKey: 699051
-Thread 8 StartKey: 699051 EndKey: 786432
-Thread 9 StartKey: 786432 EndKey: 873813
-Thread 10 StartKey: 873813 EndKey: 961194
-Thread 11 StartKey: 961194 EndKey: 1048575
-Thread 7 found decrypt key 645865 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2992
-Generated secret key 870021
-Thread 0 StartKey: 0 EndKey: 87382
-Thread 1 StartKey: 87382 EndKey: 174764
-Thread 3 StartKey: 262146 EndKey: 349527
-Thread 4 StartKey: 349527 EndKey: 436908
-Thread 5 StartKey: 436908 EndKey: 524289
-Thread 6 StartKey: 524289 EndKey: 611670
-Thread 7 StartKey: 611670 EndKey: 699051
-Thread 8 StartKey: 699051 EndKey: 786432
-Thread 2 StartKey: 174764 EndKey: 262146
-Thread 9 StartKey: 786432 EndKey: 873813
-Thread 10 StartKey: 873813 EndKey: 961194
-Thread 11 StartKey: 961194 EndKey: 1048575
-Thread 9 found decrypt key 870021 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2856
-Generated secret key 275554
-Thread 1 StartKey: 87382 EndKey: 174764
-Thread 0 StartKey: 0 EndKey: 87382
-Thread 2 StartKey: 174764 EndKey: 262146
-Thread 3 StartKey: 262146 EndKey: 349527
-Thread 4 StartKey: 349527 EndKey: 436908
-Thread 5 StartKey: 436908 EndKey: 524289
-Thread 6 StartKey: 524289 EndKey: 611670
-Thread 7 StartKey: 611670 EndKey: 699051
-Thread 8 StartKey: 699051 EndKey: 786432
-Thread 10 StartKey: 873813 EndKey: 961194
-Thread 11 StartKey: 961194 EndKey: 1048575
-Thread 9 StartKey: 786432 EndKey: 873813
-Thread 3 found decrypt key 275554 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3011
+Generated secret key 576
+Thread 0 StartKey: 0 EndKey: 86
+Thread 1 StartKey: 86 EndKey: 172
+Thread 3 StartKey: 258 EndKey: 343
+Thread 6 StartKey: 513 EndKey: 598
+Thread 4 StartKey: 343 EndKey: 428
+Thread 5 StartKey: 428 EndKey: 513
+Thread 2 StartKey: 172 EndKey: 258
+Thread 7 StartKey: 598 EndKey: 683
+Thread 6 found decrypt key 576 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 9 StartKey: 768 EndKey: 853
+Thread 8 StartKey: 683 EndKey: 768
+Thread 11 StartKey: 938 EndKey: 1023
+Thread 10 StartKey: 853 EndKey: 938
+Final elapsed time: 88
+Generated secret key 54
+Thread 0 StartKey: 0 EndKey: 86
+Thread 2 StartKey: 172 EndKey: 258
+Thread 1 StartKey: 86 EndKey: 172
+Thread 3 StartKey: 258 EndKey: 343
+Thread 5 StartKey: 428 EndKey: 513
+Thread 4 StartKey: 343 EndKey: 428
+Thread 0 found decrypt key 54 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 7 StartKey: 598 EndKey: 683
+Thread 6 StartKey: 513 EndKey: 598
+Thread 10 StartKey: 853 EndKey: 938
+Thread 11 StartKey: 938 EndKey: 1023
+Thread 8 StartKey: 683 EndKey: 768
+Thread 9 StartKey: 768 EndKey: 853
+Final elapsed time: 87
+Generated secret key 1013
+Thread 0 StartKey: 0 EndKey: 86
+Thread 1 StartKey: 86 EndKey: 172
+Thread 2 StartKey: 172 EndKey: 258
+Thread 3 StartKey: 258 EndKey: 343
+Thread 4 StartKey: 343 EndKey: 428
+Thread 5 StartKey: 428 EndKey: 513
+Thread 6 StartKey: 513 EndKey: 598
+Thread 7 StartKey: 598 EndKey: 683
+Thread 9 StartKey: 768 EndKey: 853
+Thread 10 StartKey: 853 EndKey: 938
+Thread 11 StartKey: 938 EndKey: 1023
+Thread 8 StartKey: 683 EndKey: 768
+Thread 11 found decrypt key 1013 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 90
+Generated secret key 12
+Thread 1 StartKey: 86 EndKey: 172
+Thread 0 StartKey: 0 EndKey: 86
+Thread 2 StartKey: 172 EndKey: 258
+Thread 3 StartKey: 258 EndKey: 343
+Thread 0 found decrypt key 12 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 4 StartKey: 343 EndKey: 428
+Thread 5 StartKey: 428 EndKey: 513
+Thread 6 StartKey: 513 EndKey: 598
+Thread 7 StartKey: 598 EndKey: 683
+Thread 9 StartKey: 768 EndKey: 853
+Thread 8 StartKey: 683 EndKey: 768
+Thread 10 StartKey: 853 EndKey: 938
+Thread 11 StartKey: 938 EndKey: 1023
+Final elapsed time: 87
+Generated secret key 421
+Thread 1 StartKey: 86 EndKey: 172
+Thread 0 StartKey: 0 EndKey: 86
+Thread 2 StartKey: 172 EndKey: 258
+Thread 4 StartKey: 343 EndKey: 428
+Thread 3 StartKey: 258 EndKey: 343
+Thread 5 StartKey: 428 EndKey: 513
+Thread 7 StartKey: 598 EndKey: 683
+Thread 6 StartKey: 513 EndKey: 598
+Thread 8 StartKey: 683 EndKey: 768
+Thread 10 StartKey: 853 EndKey: 938
+Thread 11 StartKey: 938 EndKey: 1023
+Thread 9 StartKey: 768 EndKey: 853
+Thread 4 found decrypt key 421 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 79
 ************* thread = 13
-Generated secret key 729828
-Thread 0 StartKey: 0 EndKey: 80660
-Thread 1 StartKey: 80660 EndKey: 161320
-Thread 2 StartKey: 161320 EndKey: 241980
-Thread 3 StartKey: 241980 EndKey: 322640
-Thread 5 StartKey: 403300 EndKey: 483960
-Thread 6 StartKey: 483960 EndKey: 564620
-Thread 7 StartKey: 564620 EndKey: 645280
-Thread 8 StartKey: 645280 EndKey: 725939
-Thread 4 StartKey: 322640 EndKey: 403300
-Thread 9 StartKey: 725939 EndKey: 806598
-Thread 11 StartKey: 887257 EndKey: 967916
-Thread 10 StartKey: 806598 EndKey: 887257
-Thread 12 StartKey: 967916 EndKey: 1048575
-Thread 9 found decrypt key 729828 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3047
-Generated secret key 865746
-Thread 0 StartKey: 0 EndKey: 80660
-Thread 1 StartKey: 80660 EndKey: 161320
-Thread 3 StartKey: 241980 EndKey: 322640
-Thread 5 StartKey: 403300 EndKey: 483960
-Thread 6 StartKey: 483960 EndKey: 564620
-Thread 4 StartKey: 322640 EndKey: 403300
-Thread 2 StartKey: 161320 EndKey: 241980
-Thread 8 StartKey: 645280 EndKey: 725939
-Thread 7 StartKey: 564620 EndKey: 645280
-Thread 9 StartKey: 725939 EndKey: 806598
-Thread 10 StartKey: 806598 EndKey: 887257
-Thread 12 StartKey: 967916 EndKey: 1048575
-Thread 11 StartKey: 887257 EndKey: 967916
-Thread 10 found decrypt key 865746 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2983
-Generated secret key 853773
-Thread 0 StartKey: 0 EndKey: 80660
-Thread 1 StartKey: 80660 EndKey: 161320
-Thread 3 StartKey: 241980 EndKey: 322640
-Thread 4 StartKey: 322640 EndKey: 403300
-Thread 5 StartKey: 403300 EndKey: 483960
-Thread 6 StartKey: 483960 EndKey: 564620
-Thread 7 StartKey: 564620 EndKey: 645280
-Thread 2 StartKey: 161320 EndKey: 241980
-Thread 9 StartKey: 725939 EndKey: 806598
-Thread 8 StartKey: 645280 EndKey: 725939
-Thread 12 StartKey: 967916 EndKey: 1048575
-Thread 11 StartKey: 887257 EndKey: 967916
-Thread 10 StartKey: 806598 EndKey: 887257
-Thread 10 found decrypt key 853773 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3055
-Generated secret key 404177
-Thread 0 StartKey: 0 EndKey: 80660
-Thread 1 StartKey: 80660 EndKey: 161320
-Thread 3 StartKey: 241980 EndKey: 322640
-Thread 5 StartKey: 403300 EndKey: 483960
-Thread 2 StartKey: 161320 EndKey: 241980
-Thread 4 StartKey: 322640 EndKey: 403300
-Thread 7 StartKey: 564620 EndKey: 645280
-Thread 8 StartKey: 645280 EndKey: 725939
-Thread 6 StartKey: 483960 EndKey: 564620
-Thread 9 StartKey: 725939 EndKey: 806598
-Thread 10 StartKey: 806598 EndKey: 887257
-Thread 12 StartKey: 967916 EndKey: 1048575
-Thread 11 StartKey: 887257 EndKey: 967916
-Thread 5 found decrypt key 404177 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3105
-Generated secret key 128626
-Thread 0 StartKey: 0 EndKey: 80660
-Thread 1 StartKey: 80660 EndKey: 161320
-Thread 3 StartKey: 241980 EndKey: 322640
-Thread 4 StartKey: 322640 EndKey: 403300
-Thread 5 StartKey: 403300 EndKey: 483960
-Thread 6 StartKey: 483960 EndKey: 564620
-Thread 7 StartKey: 564620 EndKey: 645280
-Thread 2 StartKey: 161320 EndKey: 241980
-Thread 8 StartKey: 645280 EndKey: 725939
-Thread 9 StartKey: 725939 EndKey: 806598
-Thread 12 StartKey: 967916 EndKey: 1048575
-Thread 10 StartKey: 806598 EndKey: 887257
-Thread 11 StartKey: 887257 EndKey: 967916
-Thread 1 found decrypt key 128626 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3004
+Generated secret key 896
+Thread 1 StartKey: 79 EndKey: 158
+Thread 2 StartKey: 158 EndKey: 237
+Thread 3 StartKey: 237 EndKey: 316
+Thread 0 StartKey: 0 EndKey: 79
+Thread 4 StartKey: 316 EndKey: 395
+Thread 5 StartKey: 395 EndKey: 474
+Thread 6 StartKey: 474 EndKey: 553
+Thread 7 StartKey: 553 EndKey: 632
+Thread 8 StartKey: 632 EndKey: 711
+Thread 9 StartKey: 711 EndKey: 789
+Thread 10 StartKey: 789 EndKey: 867
+Thread 11 StartKey: 867 EndKey: 945
+Thread 12 StartKey: 945 EndKey: 1023
+Thread 11 found decrypt key 896 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 81
+Generated secret key 585
+Thread 0 StartKey: 0 EndKey: 79
+Thread 2 StartKey: 158 EndKey: 237
+Thread 1 StartKey: 79 EndKey: 158
+Thread 3 StartKey: 237 EndKey: 316
+Thread 5 StartKey: 395 EndKey: 474
+Thread 6 StartKey: 474 EndKey: 553
+Thread 4 StartKey: 316 EndKey: 395
+Thread 7 StartKey: 553 EndKey: 632
+Thread 8 StartKey: 632 EndKey: 711
+Thread 9 StartKey: 711 EndKey: 789
+Thread 7 found decrypt key 585 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 10 StartKey: 789 EndKey: 867
+Thread 11 StartKey: 867 EndKey: 945
+Thread 12 StartKey: 945 EndKey: 1023
+Final elapsed time: 81
+Generated secret key 597
+Thread 1 StartKey: 79 EndKey: 158
+Thread 0 StartKey: 0 EndKey: 79
+Thread 3 StartKey: 237 EndKey: 316
+Thread 4 StartKey: 316 EndKey: 395
+Thread 2 StartKey: 158 EndKey: 237
+Thread 6 StartKey: 474 EndKey: 553
+Thread 5 StartKey: 395 EndKey: 474
+Thread 7 StartKey: 553 EndKey: 632
+Thread 7 found decrypt key 597 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 8 StartKey: 632 EndKey: 711
+Thread 10 StartKey: 789 EndKey: 867
+Thread 9 StartKey: 711 EndKey: 789
+Thread 11 StartKey: 867 EndKey: 945
+Thread 12 StartKey: 945 EndKey: 1023
+Final elapsed time: 76
+Generated secret key 83
+Thread 1 StartKey: 79 EndKey: 158
+Thread 2 StartKey: 158 EndKey: 237
+Thread 3 StartKey: 237 EndKey: 316
+Thread 0 StartKey: 0 EndKey: 79
+Thread 1 found decrypt key 83 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 5 StartKey: 395 EndKey: 474
+Thread 4 StartKey: 316 EndKey: 395
+Thread 7 StartKey: 553 EndKey: 632
+Thread 6 StartKey: 474 EndKey: 553
+Thread 9 StartKey: 711 EndKey: 789
+Thread 8 StartKey: 632 EndKey: 711
+Thread 10 StartKey: 789 EndKey: 867
+Thread 12 StartKey: 945 EndKey: 1023
+Thread 11 StartKey: 867 EndKey: 945
+Final elapsed time: 87
+Generated secret key 306
+Thread 0 StartKey: 0 EndKey: 79
+Thread 3 StartKey: 237 EndKey: 316
+Thread 1 StartKey: 79 EndKey: 158
+Thread 2 StartKey: 158 EndKey: 237
+Thread 4 StartKey: 316 EndKey: 395
+Thread 5 StartKey: 395 EndKey: 474
+Thread 6 StartKey: 474 EndKey: 553
+Thread 7 StartKey: 553 EndKey: 632
+Thread 8 StartKey: 632 EndKey: 711
+Thread 9 StartKey: 711 EndKey: 789
+Thread 3 found decrypt key 306 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 11 StartKey: 867 EndKey: 945
+Thread 10 StartKey: 789 EndKey: 867
+Thread 12 StartKey: 945 EndKey: 1023
+Final elapsed time: 87
 ************* thread = 14
-Generated secret key 780949
-Thread 0 StartKey: 0 EndKey: 74899
-Thread 1 StartKey: 74899 EndKey: 149798
-Thread 3 StartKey: 224697 EndKey: 299595
-Thread 4 StartKey: 299595 EndKey: 374493
-Thread 5 StartKey: 374493 EndKey: 449391
-Thread 6 StartKey: 449391 EndKey: 524289
-Thread 7 StartKey: 524289 EndKey: 599187
-Thread 8 StartKey: 599187 EndKey: 674085
-Thread 2 StartKey: 149798 EndKey: 224697
-Thread 9 StartKey: 674085 EndKey: 748983
-Thread 10 StartKey: 748983 EndKey: 823881
-Thread 13 StartKey: 973677 EndKey: 1048575
-Thread 12 StartKey: 898779 EndKey: 973677
-Thread 11 StartKey: 823881 EndKey: 898779
-Thread 10 found decrypt key 780949 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3098
-Generated secret key 312448
-Thread 0 StartKey: 0 EndKey: 74899
-Thread 1 StartKey: 74899 EndKey: 149798
-Thread 2 StartKey: 149798 EndKey: 224697
-Thread 4 StartKey: 299595 EndKey: 374493
-Thread 5 StartKey: 374493 EndKey: 449391
-Thread 6 StartKey: 449391 EndKey: 524289
-Thread 3 StartKey: 224697 EndKey: 299595
-Thread 7 StartKey: 524289 EndKey: 599187
-Thread 8 StartKey: 599187 EndKey: 674085
-Thread 10 StartKey: 748983 EndKey: 823881
-Thread 12 StartKey: 898779 EndKey: 973677
-Thread 11 StartKey: 823881 EndKey: 898779
-Thread 9 StartKey: 674085 EndKey: 748983
-Thread 13 StartKey: 973677 EndKey: 1048575
-Thread 4 found decrypt key 312448 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2946
-Generated secret key 638162
-Thread 0 StartKey: 0 EndKey: 74899
-Thread 1 StartKey: 74899 EndKey: 149798
-Thread 3 StartKey: 224697 EndKey: 299595
-Thread 4 StartKey: 299595 EndKey: 374493
-Thread 2 StartKey: 149798 EndKey: 224697
-Thread 5 StartKey: 374493 EndKey: 449391
-Thread 6 StartKey: 449391 EndKey: 524289
-Thread 7 StartKey: 524289 EndKey: 599187
-Thread 8 StartKey: 599187 EndKey: 674085
-Thread 9 StartKey: 674085 EndKey: 748983
-Thread 11 StartKey: 823881 EndKey: 898779
-Thread 10 StartKey: 748983 EndKey: 823881
-Thread 13 StartKey: 973677 EndKey: 1048575
-Thread 12 StartKey: 898779 EndKey: 973677
-Thread 8 found decrypt key 638162 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2958
-Generated secret key 215246
-Thread 0 StartKey: 0 EndKey: 74899
-Thread 1 StartKey: 74899 EndKey: 149798
-Thread 2 StartKey: 149798 EndKey: 224697
-Thread 4 StartKey: 299595 EndKey: 374493
-Thread 5 StartKey: 374493 EndKey: 449391
-Thread 6 StartKey: 449391 EndKey: 524289
-Thread 3 StartKey: 224697 EndKey: 299595
-Thread 7 StartKey: 524289 EndKey: 599187
-Thread 8 StartKey: 599187 EndKey: 674085
-Thread 9 StartKey: 674085 EndKey: 748983
-Thread 12 StartKey: 898779 EndKey: 973677
-Thread 13 StartKey: 973677 EndKey: 1048575
-Thread 11 StartKey: 823881 EndKey: 898779
-Thread 10 StartKey: 748983 EndKey: 823881
-Thread 2 found decrypt key 215246 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3022
-Generated secret key 650961
-Thread 0 StartKey: 0 EndKey: 74899
-Thread 1 StartKey: 74899 EndKey: 149798
-Thread 2 StartKey: 149798 EndKey: 224697
-Thread 3 StartKey: 224697 EndKey: 299595
-Thread 4 StartKey: 299595 EndKey: 374493
-Thread 5 StartKey: 374493 EndKey: 449391
-Thread 7 StartKey: 524289 EndKey: 599187
-Thread 6 StartKey: 449391 EndKey: 524289
-Thread 8 StartKey: 599187 EndKey: 674085
-Thread 9 StartKey: 674085 EndKey: 748983
-Thread 11 StartKey: 823881 EndKey: 898779
-Thread 12 StartKey: 898779 EndKey: 973677
-Thread 10 StartKey: 748983 EndKey: 823881
-Thread 13 StartKey: 973677 EndKey: 1048575
-Thread 8 found decrypt key 650961 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3099
+Generated secret key 653
+Thread 0 StartKey: 0 EndKey: 74
+Thread 2 StartKey: 147 EndKey: 220
+Thread 1 StartKey: 74 EndKey: 147
+Thread 4 StartKey: 293 EndKey: 366
+Thread 3 StartKey: 220 EndKey: 293
+Thread 5 StartKey: 366 EndKey: 439
+Thread 6 StartKey: 439 EndKey: 512
+Thread 7 StartKey: 512 EndKey: 585
+Thread 8 StartKey: 585 EndKey: 658
+Thread 9 StartKey: 658 EndKey: 731
+Thread 10 StartKey: 731 EndKey: 804
+Thread 11 StartKey: 804 EndKey: 877
+Thread 12 StartKey: 877 EndKey: 950
+Thread 13 StartKey: 950 EndKey: 1023
+Thread 8 found decrypt key 653 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 82
+Generated secret key 653
+Thread 0 StartKey: 0 EndKey: 74
+Thread 2 StartKey: 147 EndKey: 220
+Thread 1 StartKey: 74 EndKey: 147
+Thread 3 StartKey: 220 EndKey: 293
+Thread 5 StartKey: 366 EndKey: 439
+Thread 4 StartKey: 293 EndKey: 366
+Thread 6 StartKey: 439 EndKey: 512
+Thread 7 StartKey: 512 EndKey: 585
+Thread 9 StartKey: 658 EndKey: 731
+Thread 8 StartKey: 585 EndKey: 658
+Thread 10 StartKey: 731 EndKey: 804
+Thread 11 StartKey: 804 EndKey: 877
+Thread 8 found decrypt key 653 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 12 StartKey: 877 EndKey: 950
+Thread 13 StartKey: 950 EndKey: 1023
+Final elapsed time: 88
+Generated secret key 33
+Thread 0 StartKey: 0 EndKey: 74
+Thread 1 StartKey: 74 EndKey: 147
+Thread 2 StartKey: 147 EndKey: 220
+Thread 5 StartKey: 366 EndKey: 439
+Thread 3 StartKey: 220 EndKey: 293
+Thread 4 StartKey: 293 EndKey: 366
+Thread 6 StartKey: 439 EndKey: 512
+Thread 0 found decrypt key 33 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 7 StartKey: 512 EndKey: 585
+Thread 8 StartKey: 585 EndKey: 658
+Thread 9 StartKey: 658 EndKey: 731
+Thread 10 StartKey: 731 EndKey: 804
+Thread 11 StartKey: 804 EndKey: 877
+Thread 12 StartKey: 877 EndKey: 950
+Thread 13 StartKey: 950 EndKey: 1023
+Final elapsed time: 84
+Generated secret key 426
+Thread 0 StartKey: 0 EndKey: 74
+Thread 1 StartKey: 74 EndKey: 147
+Thread 2 StartKey: 147 EndKey: 220
+Thread 3 StartKey: 220 EndKey: 293
+Thread 4 StartKey: 293 EndKey: 366
+Thread 5 StartKey: 366 EndKey: 439
+Thread 7 StartKey: 512 EndKey: 585
+Thread 8 StartKey: 585 EndKey: 658
+Thread 6 StartKey: 439 EndKey: 512
+Thread 9 StartKey: 658 EndKey: 731
+Thread 5 found decrypt key 426 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 10 StartKey: 731 EndKey: 804
+Thread 11 StartKey: 804 EndKey: 877
+Thread 12 StartKey: 877 EndKey: 950
+Thread 13 StartKey: 950 EndKey: 1023
+Final elapsed time: 86
+Generated secret key 225
+Thread 0 StartKey: 0 EndKey: 74
+Thread 2 StartKey: 147 EndKey: 220
+Thread 1 StartKey: 74 EndKey: 147
+Thread 3 StartKey: 220 EndKey: 293
+Thread 3 found decrypt key 225 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 4 StartKey: 293 EndKey: 366
+Thread 5 StartKey: 366 EndKey: 439
+Thread 6 StartKey: 439 EndKey: 512
+Thread 7 StartKey: 512 EndKey: 585
+Thread 8 StartKey: 585 EndKey: 658
+Thread 10 StartKey: 731 EndKey: 804
+Thread 9 StartKey: 658 EndKey: 731
+Thread 11 StartKey: 804 EndKey: 877
+Thread 12 StartKey: 877 EndKey: 950
+Thread 13 StartKey: 950 EndKey: 1023
+Final elapsed time: 82
 ************* thread = 15
-Generated secret key 902353
-Thread 0 StartKey: 0 EndKey: 69905
-Thread 2 StartKey: 139810 EndKey: 209715
-Thread 1 StartKey: 69905 EndKey: 139810
-Thread 4 StartKey: 279620 EndKey: 349525
-Thread 5 StartKey: 349525 EndKey: 419430
-Thread 6 StartKey: 419430 EndKey: 489335
-Thread 7 StartKey: 489335 EndKey: 559240
-Thread 9 StartKey: 629145 EndKey: 699050
-Thread 8 StartKey: 559240 EndKey: 629145
-Thread 11 StartKey: 768955 EndKey: 838860
-Thread 3 StartKey: 209715 EndKey: 279620
-Thread 10 StartKey: 699050 EndKey: 768955
-Thread 12 StartKey: 838860 EndKey: 908765
-Thread 14 StartKey: 978670 EndKey: 1048575
-Thread 13 StartKey: 908765 EndKey: 978670
-Thread 12 found decrypt key 902353 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2956
-Generated secret key 192118
-Thread 0 StartKey: 0 EndKey: 69905
-Thread 1 StartKey: 69905 EndKey: 139810
-Thread 3 StartKey: 209715 EndKey: 279620
-Thread 4 StartKey: 279620 EndKey: 349525
-Thread 2 StartKey: 139810 EndKey: 209715
-Thread 5 StartKey: 349525 EndKey: 419430
-Thread 6 StartKey: 419430 EndKey: 489335
-Thread 8 StartKey: 559240 EndKey: 629145
-Thread 9 StartKey: 629145 EndKey: 699050
-Thread 11 StartKey: 768955 EndKey: 838860
-Thread 10 StartKey: 699050 EndKey: 768955
-Thread 13 StartKey: 908765 EndKey: 978670
-Thread 12 StartKey: 838860 EndKey: 908765
-Thread 7 StartKey: 489335 EndKey: 559240
-Thread 14 StartKey: 978670 EndKey: 1048575
-Thread 2 found decrypt key 192118 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2917
-Generated secret key 765059
-Thread 0 StartKey: 0 EndKey: 69905
-Thread 1 StartKey: 69905 EndKey: 139810
-Thread 2 StartKey: 139810 EndKey: 209715
-Thread 4 StartKey: 279620 EndKey: 349525
-Thread 5 StartKey: 349525 EndKey: 419430
-Thread 6 StartKey: 419430 EndKey: 489335
-Thread 7 StartKey: 489335 EndKey: 559240
-Thread 8 StartKey: 559240 EndKey: 629145
-Thread 9 StartKey: 629145 EndKey: 699050
-Thread 3 StartKey: 209715 EndKey: 279620
-Thread 11 StartKey: 768955 EndKey: 838860
-Thread 10 StartKey: 699050 EndKey: 768955
-Thread 12 StartKey: 838860 EndKey: 908765
-Thread 13 StartKey: 908765 EndKey: 978670
-Thread 14 StartKey: 978670 EndKey: 1048575
-Thread 10 found decrypt key 765059 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3036
-Generated secret key 706063
-Thread 1 StartKey: 69905 EndKey: 139810
-Thread 0 StartKey: 0 EndKey: 69905
-Thread 2 StartKey: 139810 EndKey: 209715
-Thread 3 StartKey: 209715 EndKey: 279620
-Thread 5 StartKey: 349525 EndKey: 419430
-Thread 4 StartKey: 279620 EndKey: 349525
-Thread 6 StartKey: 419430 EndKey: 489335
-Thread 7 StartKey: 489335 EndKey: 559240
-Thread 9 StartKey: 629145 EndKey: 699050
-Thread 8 StartKey: 559240 EndKey: 629145
-Thread 10 StartKey: 699050 EndKey: 768955
-Thread 11 StartKey: 768955 EndKey: 838860
-Thread 12 StartKey: 838860 EndKey: 908765
-Thread 13 StartKey: 908765 EndKey: 978670
-Thread 14 StartKey: 978670 EndKey: 1048575
-Thread 10 found decrypt key 706063 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3006
-Generated secret key 937817
-Thread 0 StartKey: 0 EndKey: 69905
-Thread 1 StartKey: 69905 EndKey: 139810
-Thread 2 StartKey: 139810 EndKey: 209715
-Thread 4 StartKey: 279620 EndKey: 349525
-Thread 7 StartKey: 489335 EndKey: 559240
-Thread 3 StartKey: 209715 EndKey: 279620
-Thread 9 StartKey: 629145 EndKey: 699050
-Thread 5 StartKey: 349525 EndKey: 419430
-Thread 6 StartKey: 419430 EndKey: 489335
-Thread 10 StartKey: 699050 EndKey: 768955
-Thread 8 StartKey: 559240 EndKey: 629145
-Thread 11 StartKey: 768955 EndKey: 838860
-Thread 13 StartKey: 908765 EndKey: 978670
-Thread 12 StartKey: 838860 EndKey: 908765
-Thread 14 StartKey: 978670 EndKey: 1048575
-Thread 13 found decrypt key 937817 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3108
+Generated secret key 233
+Thread 0 StartKey: 0 EndKey: 69
+Thread 1 StartKey: 69 EndKey: 138
+Thread 2 StartKey: 138 EndKey: 207
+Thread 3 StartKey: 207 EndKey: 275
+Thread 4 StartKey: 275 EndKey: 343
+Thread 5 StartKey: 343 EndKey: 411
+Thread 3 found decrypt key 233 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 6 StartKey: 411 EndKey: 479
+Thread 7 StartKey: 479 EndKey: 547
+Thread 8 StartKey: 547 EndKey: 615
+Thread 11 StartKey: 751 EndKey: 819
+Thread 9 StartKey: 615 EndKey: 683
+Thread 14 StartKey: 955 EndKey: 1023
+Thread 13 StartKey: 887 EndKey: 955
+Thread 12 StartKey: 819 EndKey: 887
+Thread 10 StartKey: 683 EndKey: 751
+Final elapsed time: 76
+Generated secret key 789
+Thread 0 StartKey: 0 EndKey: 69
+Thread 1 StartKey: 69 EndKey: 138
+Thread 2 StartKey: 138 EndKey: 207
+Thread 3 StartKey: 207 EndKey: 275
+Thread 4 StartKey: 275 EndKey: 343
+Thread 5 StartKey: 343 EndKey: 411
+Thread 6 StartKey: 411 EndKey: 479
+Thread 7 StartKey: 479 EndKey: 547
+Thread 8 StartKey: 547 EndKey: 615
+Thread 10 StartKey: 683 EndKey: 751
+Thread 11 StartKey: 751 EndKey: 819
+Thread 9 StartKey: 615 EndKey: 683
+Thread 11 found decrypt key 789 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 12 StartKey: 819 EndKey: 887
+Thread 13 StartKey: 887 EndKey: 955
+Thread 14 StartKey: 955 EndKey: 1023
+Final elapsed time: 78
+Generated secret key 1009
+Thread 1 StartKey: 69 EndKey: 138
+Thread 2 StartKey: 138 EndKey: 207
+Thread 0 StartKey: 0 EndKey: 69
+Thread 3 StartKey: 207 EndKey: 275
+Thread 4 StartKey: 275 EndKey: 343
+Thread 5 StartKey: 343 EndKey: 411
+Thread 6 StartKey: 411 EndKey: 479
+Thread 7 StartKey: 479 EndKey: 547
+Thread 8 StartKey: 547 EndKey: 615
+Thread 9 StartKey: 615 EndKey: 683
+Thread 10 StartKey: 683 EndKey: 751
+Thread 12 StartKey: 819 EndKey: 887
+Thread 13 StartKey: 887 EndKey: 955
+Thread 11 StartKey: 751 EndKey: 819
+Thread 14 StartKey: 955 EndKey: 1023
+Thread 14 found decrypt key 1009 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 76
+Generated secret key 206
+Thread 0 StartKey: 0 EndKey: 69
+Thread 1 StartKey: 69 EndKey: 138
+Thread 2 StartKey: 138 EndKey: 207
+Thread 3 StartKey: 207 EndKey: 275
+Thread 4 StartKey: 275 EndKey: 343
+Thread 5 StartKey: 343 EndKey: 411
+Thread 2 found decrypt key 206 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 6 StartKey: 411 EndKey: 479
+Thread 7 StartKey: 479 EndKey: 547
+Thread 8 StartKey: 547 EndKey: 615
+Thread 9 StartKey: 615 EndKey: 683
+Thread 10 StartKey: 683 EndKey: 751
+Thread 11 StartKey: 751 EndKey: 819
+Thread 12 StartKey: 819 EndKey: 887
+Thread 13 StartKey: 887 EndKey: 955
+Thread 14 StartKey: 955 EndKey: 1023
+Final elapsed time: 87
+Generated secret key 1004
+Thread 0 StartKey: 0 EndKey: 69
+Thread 1 StartKey: 69 EndKey: 138
+Thread 4 StartKey: 275 EndKey: 343
+Thread 3 StartKey: 207 EndKey: 275
+Thread 6 StartKey: 411 EndKey: 479
+Thread 2 StartKey: 138 EndKey: 207
+Thread 5 StartKey: 343 EndKey: 411
+Thread 7 StartKey: 479 EndKey: 547
+Thread 10 StartKey: 683 EndKey: 751
+Thread 8 StartKey: 547 EndKey: 615
+Thread 9 StartKey: 615 EndKey: 683
+Thread 11 StartKey: 751 EndKey: 819
+Thread 12 StartKey: 819 EndKey: 887
+Thread 13 StartKey: 887 EndKey: 955
+Thread 14 StartKey: 955 EndKey: 1023
+Thread 14 found decrypt key 1004 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 91
 ************* thread = 16
-Generated secret key 11354
-Thread 0 StartKey: 0 EndKey: 65536
-Thread 1 StartKey: 65536 EndKey: 131072
-Thread 4 StartKey: 262144 EndKey: 327680
-Thread 5 StartKey: 327680 EndKey: 393216
-Thread 2 StartKey: 131072 EndKey: 196608
-Thread 3 StartKey: 196608 EndKey: 262144
-Thread 7 StartKey: 458752 EndKey: 524288
-Thread 6 StartKey: 393216 EndKey: 458752
-Thread 8 StartKey: 524288 EndKey: 589824
-Thread 9 StartKey: 589824 EndKey: 655360
-Thread 10 StartKey: 655360 EndKey: 720896
-Thread 11 StartKey: 720896 EndKey: 786432
-Thread 13 StartKey: 851968 EndKey: 917504
-Thread 14 StartKey: 917504 EndKey: 983040
-Thread 12 StartKey: 786432 EndKey: 851968
-Thread 15 StartKey: 983040 EndKey: 1048575
-Thread 0 found decrypt key 11354 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3084
-Generated secret key 324198
-Thread 0 StartKey: 0 EndKey: 65536
-Thread 1 StartKey: 65536 EndKey: 131072
-Thread 3 StartKey: 196608 EndKey: 262144
-Thread 5 StartKey: 327680 EndKey: 393216
-Thread 6 StartKey: 393216 EndKey: 458752
-Thread 7 StartKey: 458752 EndKey: 524288
-Thread 2 StartKey: 131072 EndKey: 196608
-Thread 8 StartKey: 524288 EndKey: 589824
-Thread 4 StartKey: 262144 EndKey: 327680
-Thread 10 StartKey: 655360 EndKey: 720896
-Thread 11 StartKey: 720896 EndKey: 786432
-Thread 9 StartKey: 589824 EndKey: 655360
-Thread 12 StartKey: 786432 EndKey: 851968
-Thread 14 StartKey: 917504 EndKey: 983040
-Thread 15 StartKey: 983040 EndKey: 1048575
-Thread 13 StartKey: 851968 EndKey: 917504
-Thread 4 found decrypt key 324198 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3041
-Generated secret key 741238
-Thread 0 StartKey: 0 EndKey: 65536
-Thread 1 StartKey: 65536 EndKey: 131072
-Thread 3 StartKey: 196608 EndKey: 262144
-Thread 4 StartKey: 262144 EndKey: 327680
-Thread 6 StartKey: 393216 EndKey: 458752
-Thread 5 StartKey: 327680 EndKey: 393216
-Thread 7 StartKey: 458752 EndKey: 524288
-Thread 2 StartKey: 131072 EndKey: 196608
-Thread 8 StartKey: 524288 EndKey: 589824
-Thread 9 StartKey: 589824 EndKey: 655360
-Thread 10 StartKey: 655360 EndKey: 720896
-Thread 11 StartKey: 720896 EndKey: 786432
-Thread 12 StartKey: 786432 EndKey: 851968
-Thread 13 StartKey: 851968 EndKey: 917504
-Thread 14 StartKey: 917504 EndKey: 983040
-Thread 15 StartKey: 983040 EndKey: 1048575
-Thread 11 found decrypt key 741238 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 2975
-Generated secret key 608293
-Thread 0 StartKey: 0 EndKey: 65536
-Thread 1 StartKey: 65536 EndKey: 131072
-Thread 3 StartKey: 196608 EndKey: 262144
-Thread 5 StartKey: 327680 EndKey: 393216
-Thread 6 StartKey: 393216 EndKey: 458752
-Thread 2 StartKey: 131072 EndKey: 196608
-Thread 7 StartKey: 458752 EndKey: 524288
-Thread 4 StartKey: 262144 EndKey: 327680
-Thread 8 StartKey: 524288 EndKey: 589824
-Thread 9 StartKey: 589824 EndKey: 655360
-Thread 10 StartKey: 655360 EndKey: 720896
-Thread 12 StartKey: 786432 EndKey: 851968
-Thread 11 StartKey: 720896 EndKey: 786432
-Thread 13 StartKey: 851968 EndKey: 917504
-Thread 14 StartKey: 917504 EndKey: 983040
-Thread 15 StartKey: 983040 EndKey: 1048575
-Thread 9 found decrypt key 608293 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3163
-Generated secret key 481785
-Thread 0 StartKey: 0 EndKey: 65536
-Thread 1 StartKey: 65536 EndKey: 131072
-Thread 3 StartKey: 196608 EndKey: 262144
-Thread 2 StartKey: 131072 EndKey: 196608
-Thread 5 StartKey: 327680 EndKey: 393216
-Thread 6 StartKey: 393216 EndKey: 458752
-Thread 4 StartKey: 262144 EndKey: 327680
-Thread 9 StartKey: 589824 EndKey: 655360
-Thread 7 StartKey: 458752 EndKey: 524288
-Thread 8 StartKey: 524288 EndKey: 589824
-Thread 10 StartKey: 655360 EndKey: 720896
-Thread 11 StartKey: 720896 EndKey: 786432
-Thread 14 StartKey: 917504 EndKey: 983040
-Thread 13 StartKey: 851968 EndKey: 917504
-Thread 12 StartKey: 786432 EndKey: 851968
-Thread 15 StartKey: 983040 EndKey: 1048575
-Thread 7 found decrypt key 481785 producing message: Johns Hopkins afraid of the big bad wolf?
-Final elapsed time: 3055
+Generated secret key 500
+Thread 0 StartKey: 0 EndKey: 64
+Thread 3 StartKey: 192 EndKey: 256
+Thread 2 StartKey: 128 EndKey: 192
+Thread 1 StartKey: 64 EndKey: 128
+Thread 4 StartKey: 256 EndKey: 320
+Thread 5 StartKey: 320 EndKey: 384
+Thread 6 StartKey: 384 EndKey: 448
+Thread 8 StartKey: 512 EndKey: 576
+Thread 7 StartKey: 448 EndKey: 512
+Thread 11 StartKey: 704 EndKey: 768
+Thread 12 StartKey: 768 EndKey: 832
+Thread 10 StartKey: 640 EndKey: 704
+Thread 13 StartKey: 832 EndKey: 896
+Thread 15 StartKey: 960 EndKey: 1023
+Thread 7 found decrypt key 500 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 9 StartKey: 576 EndKey: 640
+Thread 14 StartKey: 896 EndKey: 960
+Final elapsed time: 84
+Generated secret key 488
+Thread 0 StartKey: 0 EndKey: 64
+Thread 1 StartKey: 64 EndKey: 128
+Thread 3 StartKey: 192 EndKey: 256
+Thread 5 StartKey: 320 EndKey: 384
+Thread 4 StartKey: 256 EndKey: 320
+Thread 6 StartKey: 384 EndKey: 448
+Thread 2 StartKey: 128 EndKey: 192
+Thread 7 StartKey: 448 EndKey: 512
+Thread 8 StartKey: 512 EndKey: 576
+Thread 9 StartKey: 576 EndKey: 640
+Thread 12 StartKey: 768 EndKey: 832
+Thread 13 StartKey: 832 EndKey: 896
+Thread 11 StartKey: 704 EndKey: 768
+Thread 10 StartKey: 640 EndKey: 704
+Thread 14 StartKey: 896 EndKey: 960
+Thread 15 StartKey: 960 EndKey: 1023
+Thread 7 found decrypt key 488 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 85
+Generated secret key 841
+Thread 2 StartKey: 128 EndKey: 192
+Thread 0 StartKey: 0 EndKey: 64
+Thread 1 StartKey: 64 EndKey: 128
+Thread 3 StartKey: 192 EndKey: 256
+Thread 4 StartKey: 256 EndKey: 320
+Thread 5 StartKey: 320 EndKey: 384
+Thread 6 StartKey: 384 EndKey: 448
+Thread 9 StartKey: 576 EndKey: 640
+Thread 7 StartKey: 448 EndKey: 512
+Thread 8 StartKey: 512 EndKey: 576
+Thread 12 StartKey: 768 EndKey: 832
+Thread 10 StartKey: 640 EndKey: 704
+Thread 13 StartKey: 832 EndKey: 896
+Thread 11 StartKey: 704 EndKey: 768
+Thread 14 StartKey: 896 EndKey: 960
+Thread 13 found decrypt key 841 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 15 StartKey: 960 EndKey: 1023
+Final elapsed time: 73
+Generated secret key 719
+Thread 0 StartKey: 0 EndKey: 64
+Thread 1 StartKey: 64 EndKey: 128
+Thread 2 StartKey: 128 EndKey: 192
+Thread 3 StartKey: 192 EndKey: 256
+Thread 4 StartKey: 256 EndKey: 320
+Thread 5 StartKey: 320 EndKey: 384
+Thread 6 StartKey: 384 EndKey: 448
+Thread 7 StartKey: 448 EndKey: 512
+Thread 8 StartKey: 512 EndKey: 576
+Thread 9 StartKey: 576 EndKey: 640
+Thread 10 StartKey: 640 EndKey: 704
+Thread 11 StartKey: 704 EndKey: 768
+Thread 13 StartKey: 832 EndKey: 896
+Thread 12 StartKey: 768 EndKey: 832
+Thread 14 StartKey: 896 EndKey: 960
+Thread 11 found decrypt key 719 producing message: Johns Hopkins afraid of the big bad wolf?
+Thread 15 StartKey: 960 EndKey: 1023
+Final elapsed time: 89
+Generated secret key 762
+Thread 2 StartKey: 128 EndKey: 192
+Thread 1 StartKey: 64 EndKey: 128
+Thread 3 StartKey: 192 EndKey: 256
+Thread 0 StartKey: 0 EndKey: 64
+Thread 5 StartKey: 320 EndKey: 384
+Thread 6 StartKey: 384 EndKey: 448
+Thread 7 StartKey: 448 EndKey: 512
+Thread 4 StartKey: 256 EndKey: 320
+Thread 9 StartKey: 576 EndKey: 640
+Thread 8 StartKey: 512 EndKey: 576
+Thread 11 StartKey: 704 EndKey: 768
+Thread 10 StartKey: 640 EndKey: 704
+Thread 13 StartKey: 832 EndKey: 896
+Thread 12 StartKey: 768 EndKey: 832
+Thread 14 StartKey: 896 EndKey: 960
+Thread 15 StartKey: 960 EndKey: 1023
+Thread 11 found decrypt key 762 producing message: Johns Hopkins afraid of the big bad wolf?
+Final elapsed time: 85
