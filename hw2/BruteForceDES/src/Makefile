@@ -1,4 +1,4 @@
 default:
-	javac BruteForceDES.java DecryptThread.java SealedDES.java
+	javac CoinFlip.java CoinThread.java
 clean:
 	rm *.class

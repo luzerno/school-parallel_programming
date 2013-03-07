@@ -1,0 +1,11 @@
+Yifan Ge
+gyifan1@jhu.edu
+
+Building the program
+--------------------
+A simple Makefile is suppiled in the archive. Use "make" to build the program, or use "make clean" to remove *.class files.
+
+Running the program
+-------------------
+java CoinFlip #threads #iterations
+e.g. "java CoinFlip 4 100000000" will flip the coin 100000000 times using 4 threads.

@@ -1,0 +1,856 @@
+************* thread = 1
+Thread #0: 499994519 heads in 1000000000 tosses.
+499994519 heads in 1000000000 coin tosses.
+Elaspsed time: 23413ms
+Thread #0: 500009966 heads in 1000000000 tosses.
+500009966 heads in 1000000000 coin tosses.
+Elaspsed time: 23413ms
+Thread #0: 499970208 heads in 1000000000 tosses.
+499970208 heads in 1000000000 coin tosses.
+Elaspsed time: 23448ms
+Thread #0: 499994494 heads in 1000000000 tosses.
+499994494 heads in 1000000000 coin tosses.
+Elaspsed time: 23410ms
+Thread #0: 499995116 heads in 1000000000 tosses.
+499995116 heads in 1000000000 coin tosses.
+Elaspsed time: 23401ms
+************* thread = 2
+Thread #0: 249973155 heads in 500000000 tosses.
+Thread #1: 250010096 heads in 500000000 tosses.
+499983251 heads in 1000000000 coin tosses.
+Elaspsed time: 11737ms
+Thread #0: 249993937 heads in 500000000 tosses.
+Thread #1: 250006098 heads in 500000000 tosses.
+500000035 heads in 1000000000 coin tosses.
+Elaspsed time: 11727ms
+Thread #0: 250010083 heads in 500000000 tosses.
+Thread #1: 250009429 heads in 500000000 tosses.
+500019512 heads in 1000000000 coin tosses.
+Elaspsed time: 11735ms
+Thread #0: 249988572 heads in 500000000 tosses.
+Thread #1: 250019454 heads in 500000000 tosses.
+500008026 heads in 1000000000 coin tosses.
+Elaspsed time: 11730ms
+Thread #0: 249993598 heads in 500000000 tosses.
+Thread #1: 249971139 heads in 500000000 tosses.
+499964737 heads in 1000000000 coin tosses.
+Elaspsed time: 11723ms
+************* thread = 3
+Thread #0: 166671151 heads in 333333334 tosses.
+Thread #1: 166666026 heads in 333333333 tosses.
+Thread #2: 166659870 heads in 333333333 tosses.
+499997047 heads in 1000000000 coin tosses.
+Elaspsed time: 7840ms
+Thread #0: 166676976 heads in 333333334 tosses.
+Thread #1: 166666476 heads in 333333333 tosses.
+Thread #2: 166676028 heads in 333333333 tosses.
+500019480 heads in 1000000000 coin tosses.
+Elaspsed time: 7828ms
+Thread #0: 166676682 heads in 333333334 tosses.
+Thread #1: 166677637 heads in 333333333 tosses.
+Thread #2: 166651362 heads in 333333333 tosses.
+500005681 heads in 1000000000 coin tosses.
+Elaspsed time: 7834ms
+Thread #0: 166680393 heads in 333333334 tosses.
+Thread #1: 166670063 heads in 333333333 tosses.
+Thread #2: 166672964 heads in 333333333 tosses.
+500023420 heads in 1000000000 coin tosses.
+Elaspsed time: 7829ms
+Thread #0: 166665731 heads in 333333334 tosses.
+Thread #1: 166671234 heads in 333333333 tosses.
+Thread #2: 166674610 heads in 333333333 tosses.
+500011575 heads in 1000000000 coin tosses.
+Elaspsed time: 7845ms
+************* thread = 4
+Thread #0: 125003738 heads in 250000000 tosses.
+Thread #1: 124994980 heads in 250000000 tosses.
+Thread #2: 124988212 heads in 250000000 tosses.
+Thread #3: 124988895 heads in 250000000 tosses.
+499975825 heads in 1000000000 coin tosses.
+Elaspsed time: 5875ms
+Thread #0: 124996585 heads in 250000000 tosses.
+Thread #1: 125000611 heads in 250000000 tosses.
+Thread #2: 125009555 heads in 250000000 tosses.
+Thread #3: 124994835 heads in 250000000 tosses.
+500001586 heads in 1000000000 coin tosses.
+Elaspsed time: 5875ms
+Thread #0: 124997322 heads in 250000000 tosses.
+Thread #1: 125005545 heads in 250000000 tosses.
+Thread #2: 125008986 heads in 250000000 tosses.
+Thread #3: 125001612 heads in 250000000 tosses.
+500013465 heads in 1000000000 coin tosses.
+Elaspsed time: 5879ms
+Thread #0: 125006533 heads in 250000000 tosses.
+Thread #1: 125009569 heads in 250000000 tosses.
+Thread #2: 124997781 heads in 250000000 tosses.
+Thread #3: 125007585 heads in 250000000 tosses.
+500021468 heads in 1000000000 coin tosses.
+Elaspsed time: 5872ms
+Thread #0: 125015059 heads in 250000000 tosses.
+Thread #1: 124994475 heads in 250000000 tosses.
+Thread #2: 125004608 heads in 250000000 tosses.
+Thread #3: 124989920 heads in 250000000 tosses.
+500004062 heads in 1000000000 coin tosses.
+Elaspsed time: 5882ms
+************* thread = 5
+Thread #0: 100001862 heads in 200000000 tosses.
+Thread #1: 100003657 heads in 200000000 tosses.
+Thread #2: 100012025 heads in 200000000 tosses.
+Thread #3: 100013661 heads in 200000000 tosses.
+Thread #4: 99988401 heads in 200000000 tosses.
+500019606 heads in 1000000000 coin tosses.
+Elaspsed time: 4728ms
+Thread #0: 99995587 heads in 200000000 tosses.
+Thread #1: 100009571 heads in 200000000 tosses.
+Thread #2: 100003886 heads in 200000000 tosses.
+Thread #3: 99995771 heads in 200000000 tosses.
+Thread #4: 99998027 heads in 200000000 tosses.
+500002842 heads in 1000000000 coin tosses.
+Elaspsed time: 4712ms
+Thread #0: 99999764 heads in 200000000 tosses.
+Thread #1: 100002124 heads in 200000000 tosses.
+Thread #2: 99992302 heads in 200000000 tosses.
+Thread #3: 99989175 heads in 200000000 tosses.
+Thread #4: 100006945 heads in 200000000 tosses.
+499990310 heads in 1000000000 coin tosses.
+Elaspsed time: 4712ms
+Thread #0: 100000772 heads in 200000000 tosses.
+Thread #1: 99998082 heads in 200000000 tosses.
+Thread #2: 100000363 heads in 200000000 tosses.
+Thread #3: 100010639 heads in 200000000 tosses.
+Thread #4: 100009019 heads in 200000000 tosses.
+500018875 heads in 1000000000 coin tosses.
+Elaspsed time: 4717ms
+Thread #0: 100001392 heads in 200000000 tosses.
+Thread #1: 99989986 heads in 200000000 tosses.
+Thread #2: 100007394 heads in 200000000 tosses.
+Thread #3: 99994127 heads in 200000000 tosses.
+Thread #4: 99989483 heads in 200000000 tosses.
+499982382 heads in 1000000000 coin tosses.
+Elaspsed time: 4733ms
+************* thread = 6
+Thread #0: 83327394 heads in 166666667 tosses.
+Thread #1: 83337134 heads in 166666667 tosses.
+Thread #2: 83327309 heads in 166666667 tosses.
+Thread #3: 83335384 heads in 166666667 tosses.
+Thread #4: 83337963 heads in 166666666 tosses.
+Thread #5: 83333765 heads in 166666666 tosses.
+499998949 heads in 1000000000 coin tosses.
+Elaspsed time: 3934ms
+Thread #0: 83339099 heads in 166666667 tosses.
+Thread #1: 83331527 heads in 166666667 tosses.
+Thread #2: 83332120 heads in 166666667 tosses.
+Thread #3: 83330773 heads in 166666667 tosses.
+Thread #4: 83327799 heads in 166666666 tosses.
+Thread #5: 83327607 heads in 166666666 tosses.
+499988925 heads in 1000000000 coin tosses.
+Elaspsed time: 3951ms
+Thread #0: 83333309 heads in 166666667 tosses.
+Thread #1: 83341625 heads in 166666667 tosses.
+Thread #2: 83327128 heads in 166666667 tosses.
+Thread #3: 83332998 heads in 166666667 tosses.
+Thread #4: 83331746 heads in 166666666 tosses.
+Thread #5: 83335096 heads in 166666666 tosses.
+500001902 heads in 1000000000 coin tosses.
+Elaspsed time: 3963ms
+Thread #0: 83342588 heads in 166666667 tosses.
+Thread #1: 83329560 heads in 166666667 tosses.
+Thread #2: 83334047 heads in 166666667 tosses.
+Thread #3: 83337449 heads in 166666667 tosses.
+Thread #4: 83326700 heads in 166666666 tosses.
+Thread #5: 83324963 heads in 166666666 tosses.
+499995307 heads in 1000000000 coin tosses.
+Elaspsed time: 3934ms
+Thread #0: 83320652 heads in 166666667 tosses.
+Thread #1: 83335874 heads in 166666667 tosses.
+Thread #2: 83327150 heads in 166666667 tosses.
+Thread #3: 83332835 heads in 166666667 tosses.
+Thread #4: 83328174 heads in 166666666 tosses.
+Thread #5: 83335524 heads in 166666666 tosses.
+499980209 heads in 1000000000 coin tosses.
+Elaspsed time: 3934ms
+************* thread = 7
+Thread #0: 71427817 heads in 142857143 tosses.
+Thread #1: 71428246 heads in 142857143 tosses.
+Thread #2: 71427821 heads in 142857143 tosses.
+Thread #3: 71429248 heads in 142857143 tosses.
+Thread #4: 71432709 heads in 142857143 tosses.
+Thread #5: 71428130 heads in 142857143 tosses.
+Thread #6: 71426197 heads in 142857142 tosses.
+500000168 heads in 1000000000 coin tosses.
+Elaspsed time: 3408ms
+Thread #0: 71421841 heads in 142857143 tosses.
+Thread #1: 71435021 heads in 142857143 tosses.
+Thread #2: 71428109 heads in 142857143 tosses.
+Thread #3: 71431530 heads in 142857143 tosses.
+Thread #4: 71423296 heads in 142857143 tosses.
+Thread #5: 71423247 heads in 142857143 tosses.
+Thread #6: 71424271 heads in 142857142 tosses.
+499987315 heads in 1000000000 coin tosses.
+Elaspsed time: 3384ms
+Thread #0: 71430071 heads in 142857143 tosses.
+Thread #1: 71429195 heads in 142857143 tosses.
+Thread #2: 71422309 heads in 142857143 tosses.
+Thread #3: 71426416 heads in 142857143 tosses.
+Thread #4: 71426893 heads in 142857143 tosses.
+Thread #5: 71420962 heads in 142857143 tosses.
+Thread #6: 71432925 heads in 142857142 tosses.
+499988771 heads in 1000000000 coin tosses.
+Elaspsed time: 3392ms
+Thread #0: 71426380 heads in 142857143 tosses.
+Thread #1: 71426987 heads in 142857143 tosses.
+Thread #2: 71429325 heads in 142857143 tosses.
+Thread #3: 71430948 heads in 142857143 tosses.
+Thread #4: 71425414 heads in 142857143 tosses.
+Thread #5: 71434114 heads in 142857143 tosses.
+Thread #6: 71423677 heads in 142857142 tosses.
+499996845 heads in 1000000000 coin tosses.
+Elaspsed time: 3386ms
+Thread #0: 71425475 heads in 142857143 tosses.
+Thread #1: 71436240 heads in 142857143 tosses.
+Thread #2: 71429233 heads in 142857143 tosses.
+Thread #3: 71425568 heads in 142857143 tosses.
+Thread #4: 71436297 heads in 142857143 tosses.
+Thread #5: 71438630 heads in 142857143 tosses.
+Thread #6: 71425074 heads in 142857142 tosses.
+500016517 heads in 1000000000 coin tosses.
+Elaspsed time: 3389ms
+************* thread = 8
+Thread #0: 62499797 heads in 125000000 tosses.
+Thread #1: 62500578 heads in 125000000 tosses.
+Thread #2: 62498428 heads in 125000000 tosses.
+Thread #3: 62502357 heads in 125000000 tosses.
+Thread #4: 62504474 heads in 125000000 tosses.
+Thread #5: 62498943 heads in 125000000 tosses.
+Thread #6: 62507470 heads in 125000000 tosses.
+Thread #7: 62500925 heads in 125000000 tosses.
+500012972 heads in 1000000000 coin tosses.
+Elaspsed time: 3028ms
+Thread #0: 62493598 heads in 125000000 tosses.
+Thread #1: 62502791 heads in 125000000 tosses.
+Thread #2: 62494931 heads in 125000000 tosses.
+Thread #3: 62506276 heads in 125000000 tosses.
+Thread #4: 62503422 heads in 125000000 tosses.
+Thread #5: 62504743 heads in 125000000 tosses.
+Thread #6: 62501487 heads in 125000000 tosses.
+Thread #7: 62503065 heads in 125000000 tosses.
+500010313 heads in 1000000000 coin tosses.
+Elaspsed time: 3099ms
+Thread #0: 62505357 heads in 125000000 tosses.
+Thread #1: 62509400 heads in 125000000 tosses.
+Thread #2: 62500260 heads in 125000000 tosses.
+Thread #3: 62505912 heads in 125000000 tosses.
+Thread #4: 62488979 heads in 125000000 tosses.
+Thread #5: 62502266 heads in 125000000 tosses.
+Thread #6: 62505571 heads in 125000000 tosses.
+Thread #7: 62494983 heads in 125000000 tosses.
+500012728 heads in 1000000000 coin tosses.
+Elaspsed time: 2985ms
+Thread #0: 62503805 heads in 125000000 tosses.
+Thread #1: 62516179 heads in 125000000 tosses.
+Thread #2: 62499322 heads in 125000000 tosses.
+Thread #3: 62506027 heads in 125000000 tosses.
+Thread #4: 62496026 heads in 125000000 tosses.
+Thread #5: 62496439 heads in 125000000 tosses.
+Thread #6: 62504006 heads in 125000000 tosses.
+Thread #7: 62503250 heads in 125000000 tosses.
+500025054 heads in 1000000000 coin tosses.
+Elaspsed time: 3045ms
+Thread #0: 62500864 heads in 125000000 tosses.
+Thread #1: 62502307 heads in 125000000 tosses.
+Thread #2: 62511468 heads in 125000000 tosses.
+Thread #3: 62506791 heads in 125000000 tosses.
+Thread #4: 62500851 heads in 125000000 tosses.
+Thread #5: 62504592 heads in 125000000 tosses.
+Thread #6: 62501396 heads in 125000000 tosses.
+Thread #7: 62498489 heads in 125000000 tosses.
+500026758 heads in 1000000000 coin tosses.
+Elaspsed time: 2976ms
+************* thread = 9
+Thread #0: 55561721 heads in 111111112 tosses.
+Thread #1: 55559508 heads in 111111111 tosses.
+Thread #2: 55560796 heads in 111111111 tosses.
+Thread #3: 55563899 heads in 111111111 tosses.
+Thread #4: 55556717 heads in 111111111 tosses.
+Thread #5: 55556772 heads in 111111111 tosses.
+Thread #6: 55550886 heads in 111111111 tosses.
+Thread #7: 55548304 heads in 111111111 tosses.
+Thread #8: 55550921 heads in 111111111 tosses.
+500009524 heads in 1000000000 coin tosses.
+Elaspsed time: 3619ms
+Thread #0: 55551622 heads in 111111112 tosses.
+Thread #1: 55555188 heads in 111111111 tosses.
+Thread #2: 55556185 heads in 111111111 tosses.
+Thread #3: 55549212 heads in 111111111 tosses.
+Thread #4: 55549382 heads in 111111111 tosses.
+Thread #5: 55548263 heads in 111111111 tosses.
+Thread #6: 55550079 heads in 111111111 tosses.
+Thread #7: 55546935 heads in 111111111 tosses.
+Thread #8: 55555851 heads in 111111111 tosses.
+499962717 heads in 1000000000 coin tosses.
+Elaspsed time: 3612ms
+Thread #0: 55558622 heads in 111111112 tosses.
+Thread #1: 55552257 heads in 111111111 tosses.
+Thread #2: 55560540 heads in 111111111 tosses.
+Thread #3: 55553287 heads in 111111111 tosses.
+Thread #4: 55557058 heads in 111111111 tosses.
+Thread #5: 55559501 heads in 111111111 tosses.
+Thread #6: 55554334 heads in 111111111 tosses.
+Thread #7: 55553928 heads in 111111111 tosses.
+Thread #8: 55555580 heads in 111111111 tosses.
+500005107 heads in 1000000000 coin tosses.
+Elaspsed time: 3478ms
+Thread #0: 55557549 heads in 111111112 tosses.
+Thread #1: 55552996 heads in 111111111 tosses.
+Thread #2: 55550972 heads in 111111111 tosses.
+Thread #3: 55563085 heads in 111111111 tosses.
+Thread #4: 55552490 heads in 111111111 tosses.
+Thread #5: 55548970 heads in 111111111 tosses.
+Thread #6: 55558837 heads in 111111111 tosses.
+Thread #7: 55562040 heads in 111111111 tosses.
+Thread #8: 55556725 heads in 111111111 tosses.
+500003664 heads in 1000000000 coin tosses.
+Elaspsed time: 3775ms
+Thread #0: 55550005 heads in 111111112 tosses.
+Thread #1: 55557916 heads in 111111111 tosses.
+Thread #2: 55558078 heads in 111111111 tosses.
+Thread #3: 55550730 heads in 111111111 tosses.
+Thread #4: 55560965 heads in 111111111 tosses.
+Thread #5: 55549199 heads in 111111111 tosses.
+Thread #6: 55555005 heads in 111111111 tosses.
+Thread #7: 55550452 heads in 111111111 tosses.
+Thread #8: 55555759 heads in 111111111 tosses.
+499988109 heads in 1000000000 coin tosses.
+Elaspsed time: 3485ms
+************* thread = 10
+Thread #0: 49990577 heads in 100000000 tosses.
+Thread #1: 50006458 heads in 100000000 tosses.
+Thread #2: 50005141 heads in 100000000 tosses.
+Thread #3: 50003923 heads in 100000000 tosses.
+Thread #4: 50001009 heads in 100000000 tosses.
+Thread #5: 50006265 heads in 100000000 tosses.
+Thread #6: 50006686 heads in 100000000 tosses.
+Thread #7: 50002931 heads in 100000000 tosses.
+Thread #8: 50001321 heads in 100000000 tosses.
+Thread #9: 50004779 heads in 100000000 tosses.
+500029090 heads in 1000000000 coin tosses.
+Elaspsed time: 3172ms
+Thread #0: 49998275 heads in 100000000 tosses.
+Thread #1: 50008643 heads in 100000000 tosses.
+Thread #2: 50007057 heads in 100000000 tosses.
+Thread #3: 50005780 heads in 100000000 tosses.
+Thread #4: 49992844 heads in 100000000 tosses.
+Thread #5: 50000587 heads in 100000000 tosses.
+Thread #6: 49991183 heads in 100000000 tosses.
+Thread #7: 50002170 heads in 100000000 tosses.
+Thread #8: 50003163 heads in 100000000 tosses.
+Thread #9: 49997857 heads in 100000000 tosses.
+500007559 heads in 1000000000 coin tosses.
+Elaspsed time: 3451ms
+Thread #0: 50005759 heads in 100000000 tosses.
+Thread #1: 50001666 heads in 100000000 tosses.
+Thread #2: 50004084 heads in 100000000 tosses.
+Thread #3: 49989203 heads in 100000000 tosses.
+Thread #4: 50003771 heads in 100000000 tosses.
+Thread #5: 49996776 heads in 100000000 tosses.
+Thread #6: 50010059 heads in 100000000 tosses.
+Thread #7: 50001040 heads in 100000000 tosses.
+Thread #8: 50003965 heads in 100000000 tosses.
+Thread #9: 49997456 heads in 100000000 tosses.
+500013779 heads in 1000000000 coin tosses.
+Elaspsed time: 3304ms
+Thread #0: 49990179 heads in 100000000 tosses.
+Thread #1: 50001432 heads in 100000000 tosses.
+Thread #2: 50000058 heads in 100000000 tosses.
+Thread #3: 49996715 heads in 100000000 tosses.
+Thread #4: 50004182 heads in 100000000 tosses.
+Thread #5: 49992454 heads in 100000000 tosses.
+Thread #6: 49998686 heads in 100000000 tosses.
+Thread #7: 49993385 heads in 100000000 tosses.
+Thread #8: 49990561 heads in 100000000 tosses.
+Thread #9: 50003870 heads in 100000000 tosses.
+499971522 heads in 1000000000 coin tosses.
+Elaspsed time: 3463ms
+Thread #0: 50004680 heads in 100000000 tosses.
+Thread #1: 49994853 heads in 100000000 tosses.
+Thread #2: 49992396 heads in 100000000 tosses.
+Thread #3: 50009332 heads in 100000000 tosses.
+Thread #4: 49995882 heads in 100000000 tosses.
+Thread #5: 49993128 heads in 100000000 tosses.
+Thread #6: 49991795 heads in 100000000 tosses.
+Thread #7: 50001571 heads in 100000000 tosses.
+Thread #8: 49991910 heads in 100000000 tosses.
+Thread #9: 49995252 heads in 100000000 tosses.
+499970799 heads in 1000000000 coin tosses.
+Elaspsed time: 3205ms
+************* thread = 11
+Thread #0: 45452435 heads in 90909091 tosses.
+Thread #1: 45441938 heads in 90909091 tosses.
+Thread #2: 45452652 heads in 90909091 tosses.
+Thread #3: 45462985 heads in 90909091 tosses.
+Thread #4: 45457763 heads in 90909091 tosses.
+Thread #5: 45444666 heads in 90909091 tosses.
+Thread #6: 45458222 heads in 90909091 tosses.
+Thread #7: 45453236 heads in 90909091 tosses.
+Thread #8: 45454758 heads in 90909091 tosses.
+Thread #9: 45451926 heads in 90909091 tosses.
+Thread #10: 45451345 heads in 90909090 tosses.
+499981926 heads in 1000000000 coin tosses.
+Elaspsed time: 3472ms
+Thread #0: 45454661 heads in 90909091 tosses.
+Thread #1: 45452701 heads in 90909091 tosses.
+Thread #2: 45459288 heads in 90909091 tosses.
+Thread #3: 45447514 heads in 90909091 tosses.
+Thread #4: 45456173 heads in 90909091 tosses.
+Thread #5: 45452505 heads in 90909091 tosses.
+Thread #6: 45442930 heads in 90909091 tosses.
+Thread #7: 45451192 heads in 90909091 tosses.
+Thread #8: 45446687 heads in 90909091 tosses.
+Thread #9: 45449632 heads in 90909091 tosses.
+Thread #10: 45444726 heads in 90909090 tosses.
+499958009 heads in 1000000000 coin tosses.
+Elaspsed time: 3256ms
+Thread #0: 45451008 heads in 90909091 tosses.
+Thread #1: 45458206 heads in 90909091 tosses.
+Thread #2: 45454602 heads in 90909091 tosses.
+Thread #3: 45447775 heads in 90909091 tosses.
+Thread #4: 45458033 heads in 90909091 tosses.
+Thread #5: 45454630 heads in 90909091 tosses.
+Thread #6: 45457335 heads in 90909091 tosses.
+Thread #7: 45451030 heads in 90909091 tosses.
+Thread #8: 45454703 heads in 90909091 tosses.
+Thread #9: 45454556 heads in 90909091 tosses.
+Thread #10: 45448765 heads in 90909090 tosses.
+499990643 heads in 1000000000 coin tosses.
+Elaspsed time: 3392ms
+Thread #0: 45460389 heads in 90909091 tosses.
+Thread #1: 45454267 heads in 90909091 tosses.
+Thread #2: 45448510 heads in 90909091 tosses.
+Thread #3: 45458386 heads in 90909091 tosses.
+Thread #4: 45452877 heads in 90909091 tosses.
+Thread #5: 45465155 heads in 90909091 tosses.
+Thread #6: 45458224 heads in 90909091 tosses.
+Thread #7: 45453747 heads in 90909091 tosses.
+Thread #8: 45460390 heads in 90909091 tosses.
+Thread #9: 45453279 heads in 90909091 tosses.
+Thread #10: 45450931 heads in 90909090 tosses.
+500016155 heads in 1000000000 coin tosses.
+Elaspsed time: 3228ms
+Thread #0: 45452161 heads in 90909091 tosses.
+Thread #1: 45456177 heads in 90909091 tosses.
+Thread #2: 45461264 heads in 90909091 tosses.
+Thread #3: 45455167 heads in 90909091 tosses.
+Thread #4: 45458806 heads in 90909091 tosses.
+Thread #5: 45451430 heads in 90909091 tosses.
+Thread #6: 45455010 heads in 90909091 tosses.
+Thread #7: 45459029 heads in 90909091 tosses.
+Thread #8: 45452164 heads in 90909091 tosses.
+Thread #9: 45461078 heads in 90909091 tosses.
+Thread #10: 45446152 heads in 90909090 tosses.
+500008438 heads in 1000000000 coin tosses.
+Elaspsed time: 3286ms
+************* thread = 12
+Thread #0: 41661941 heads in 83333334 tosses.
+Thread #1: 41672364 heads in 83333334 tosses.
+Thread #2: 41669297 heads in 83333334 tosses.
+Thread #3: 41661557 heads in 83333334 tosses.
+Thread #4: 41665532 heads in 83333333 tosses.
+Thread #5: 41669486 heads in 83333333 tosses.
+Thread #6: 41666756 heads in 83333333 tosses.
+Thread #7: 41664181 heads in 83333333 tosses.
+Thread #8: 41670489 heads in 83333333 tosses.
+Thread #9: 41668098 heads in 83333333 tosses.
+Thread #10: 41668231 heads in 83333333 tosses.
+Thread #11: 41667576 heads in 83333333 tosses.
+500005508 heads in 1000000000 coin tosses.
+Elaspsed time: 3267ms
+Thread #0: 41663390 heads in 83333334 tosses.
+Thread #1: 41661293 heads in 83333334 tosses.
+Thread #2: 41677573 heads in 83333334 tosses.
+Thread #3: 41665845 heads in 83333334 tosses.
+Thread #4: 41663370 heads in 83333333 tosses.
+Thread #5: 41669146 heads in 83333333 tosses.
+Thread #6: 41658713 heads in 83333333 tosses.
+Thread #7: 41665568 heads in 83333333 tosses.
+Thread #8: 41664232 heads in 83333333 tosses.
+Thread #9: 41668688 heads in 83333333 tosses.
+Thread #10: 41665740 heads in 83333333 tosses.
+Thread #11: 41670381 heads in 83333333 tosses.
+499993939 heads in 1000000000 coin tosses.
+Elaspsed time: 3151ms
+Thread #0: 41665042 heads in 83333334 tosses.
+Thread #1: 41671692 heads in 83333334 tosses.
+Thread #2: 41661450 heads in 83333334 tosses.
+Thread #3: 41666994 heads in 83333334 tosses.
+Thread #4: 41671513 heads in 83333333 tosses.
+Thread #5: 41671027 heads in 83333333 tosses.
+Thread #6: 41667098 heads in 83333333 tosses.
+Thread #7: 41664849 heads in 83333333 tosses.
+Thread #8: 41667263 heads in 83333333 tosses.
+Thread #9: 41664344 heads in 83333333 tosses.
+Thread #10: 41663471 heads in 83333333 tosses.
+Thread #11: 41663741 heads in 83333333 tosses.
+499998484 heads in 1000000000 coin tosses.
+Elaspsed time: 3121ms
+Thread #0: 41670579 heads in 83333334 tosses.
+Thread #1: 41660799 heads in 83333334 tosses.
+Thread #2: 41666017 heads in 83333334 tosses.
+Thread #3: 41664343 heads in 83333334 tosses.
+Thread #4: 41661825 heads in 83333333 tosses.
+Thread #5: 41658836 heads in 83333333 tosses.
+Thread #6: 41664597 heads in 83333333 tosses.
+Thread #7: 41666933 heads in 83333333 tosses.
+Thread #8: 41670971 heads in 83333333 tosses.
+Thread #9: 41665780 heads in 83333333 tosses.
+Thread #10: 41656739 heads in 83333333 tosses.
+Thread #11: 41664340 heads in 83333333 tosses.
+499971759 heads in 1000000000 coin tosses.
+Elaspsed time: 3456ms
+Thread #0: 41664291 heads in 83333334 tosses.
+Thread #1: 41659872 heads in 83333334 tosses.
+Thread #2: 41668757 heads in 83333334 tosses.
+Thread #3: 41670693 heads in 83333334 tosses.
+Thread #4: 41667981 heads in 83333333 tosses.
+Thread #5: 41666272 heads in 83333333 tosses.
+Thread #6: 41667407 heads in 83333333 tosses.
+Thread #7: 41656609 heads in 83333333 tosses.
+Thread #8: 41669426 heads in 83333333 tosses.
+Thread #9: 41663310 heads in 83333333 tosses.
+Thread #10: 41662250 heads in 83333333 tosses.
+Thread #11: 41662104 heads in 83333333 tosses.
+499978972 heads in 1000000000 coin tosses.
+Elaspsed time: 3294ms
+************* thread = 13
+Thread #0: 38461245 heads in 76923077 tosses.
+Thread #1: 38457581 heads in 76923077 tosses.
+Thread #2: 38463908 heads in 76923077 tosses.
+Thread #3: 38459011 heads in 76923077 tosses.
+Thread #4: 38460182 heads in 76923077 tosses.
+Thread #5: 38454677 heads in 76923077 tosses.
+Thread #6: 38462402 heads in 76923077 tosses.
+Thread #7: 38458769 heads in 76923077 tosses.
+Thread #8: 38465097 heads in 76923077 tosses.
+Thread #9: 38464071 heads in 76923077 tosses.
+Thread #10: 38460037 heads in 76923077 tosses.
+Thread #11: 38453974 heads in 76923077 tosses.
+Thread #12: 38460144 heads in 76923076 tosses.
+499981098 heads in 1000000000 coin tosses.
+Elaspsed time: 3075ms
+Thread #0: 38459897 heads in 76923077 tosses.
+Thread #1: 38461613 heads in 76923077 tosses.
+Thread #2: 38456833 heads in 76923077 tosses.
+Thread #3: 38464244 heads in 76923077 tosses.
+Thread #4: 38462901 heads in 76923077 tosses.
+Thread #5: 38463179 heads in 76923077 tosses.
+Thread #6: 38460978 heads in 76923077 tosses.
+Thread #7: 38464620 heads in 76923077 tosses.
+Thread #8: 38461462 heads in 76923077 tosses.
+Thread #9: 38452572 heads in 76923077 tosses.
+Thread #10: 38463127 heads in 76923077 tosses.
+Thread #11: 38457686 heads in 76923077 tosses.
+Thread #12: 38458363 heads in 76923076 tosses.
+499987475 heads in 1000000000 coin tosses.
+Elaspsed time: 3462ms
+Thread #0: 38466761 heads in 76923077 tosses.
+Thread #1: 38453940 heads in 76923077 tosses.
+Thread #2: 38458671 heads in 76923077 tosses.
+Thread #3: 38456362 heads in 76923077 tosses.
+Thread #4: 38461431 heads in 76923077 tosses.
+Thread #5: 38461864 heads in 76923077 tosses.
+Thread #6: 38463765 heads in 76923077 tosses.
+Thread #7: 38463082 heads in 76923077 tosses.
+Thread #8: 38460821 heads in 76923077 tosses.
+Thread #9: 38456027 heads in 76923077 tosses.
+Thread #10: 38463126 heads in 76923077 tosses.
+Thread #11: 38465384 heads in 76923077 tosses.
+Thread #12: 38466238 heads in 76923076 tosses.
+499997472 heads in 1000000000 coin tosses.
+Elaspsed time: 3140ms
+Thread #0: 38462579 heads in 76923077 tosses.
+Thread #1: 38463360 heads in 76923077 tosses.
+Thread #2: 38461688 heads in 76923077 tosses.
+Thread #3: 38458885 heads in 76923077 tosses.
+Thread #4: 38470770 heads in 76923077 tosses.
+Thread #5: 38465344 heads in 76923077 tosses.
+Thread #6: 38456756 heads in 76923077 tosses.
+Thread #7: 38468924 heads in 76923077 tosses.
+Thread #8: 38470388 heads in 76923077 tosses.
+Thread #9: 38459405 heads in 76923077 tosses.
+Thread #10: 38467792 heads in 76923077 tosses.
+Thread #11: 38465294 heads in 76923077 tosses.
+Thread #12: 38458667 heads in 76923076 tosses.
+500029852 heads in 1000000000 coin tosses.
+Elaspsed time: 3190ms
+Thread #0: 38464643 heads in 76923077 tosses.
+Thread #1: 38459603 heads in 76923077 tosses.
+Thread #2: 38459705 heads in 76923077 tosses.
+Thread #3: 38462430 heads in 76923077 tosses.
+Thread #4: 38468681 heads in 76923077 tosses.
+Thread #5: 38462707 heads in 76923077 tosses.
+Thread #6: 38467779 heads in 76923077 tosses.
+Thread #7: 38458225 heads in 76923077 tosses.
+Thread #8: 38462266 heads in 76923077 tosses.
+Thread #9: 38460449 heads in 76923077 tosses.
+Thread #10: 38461499 heads in 76923077 tosses.
+Thread #11: 38469216 heads in 76923077 tosses.
+Thread #12: 38457884 heads in 76923076 tosses.
+500015087 heads in 1000000000 coin tosses.
+Elaspsed time: 3305ms
+************* thread = 14
+Thread #0: 35713284 heads in 71428572 tosses.
+Thread #1: 35716960 heads in 71428572 tosses.
+Thread #2: 35719064 heads in 71428572 tosses.
+Thread #3: 35710176 heads in 71428572 tosses.
+Thread #4: 35718322 heads in 71428572 tosses.
+Thread #5: 35714783 heads in 71428572 tosses.
+Thread #6: 35722548 heads in 71428571 tosses.
+Thread #7: 35722758 heads in 71428571 tosses.
+Thread #8: 35719643 heads in 71428571 tosses.
+Thread #9: 35713198 heads in 71428571 tosses.
+Thread #10: 35709403 heads in 71428571 tosses.
+Thread #11: 35711704 heads in 71428571 tosses.
+Thread #12: 35716992 heads in 71428571 tosses.
+Thread #13: 35713031 heads in 71428571 tosses.
+500021866 heads in 1000000000 coin tosses.
+Elaspsed time: 3116ms
+Thread #0: 35717117 heads in 71428572 tosses.
+Thread #1: 35707779 heads in 71428572 tosses.
+Thread #2: 35714518 heads in 71428572 tosses.
+Thread #3: 35715653 heads in 71428572 tosses.
+Thread #4: 35707129 heads in 71428572 tosses.
+Thread #5: 35705235 heads in 71428572 tosses.
+Thread #6: 35710466 heads in 71428571 tosses.
+Thread #7: 35710021 heads in 71428571 tosses.
+Thread #8: 35707886 heads in 71428571 tosses.
+Thread #9: 35723345 heads in 71428571 tosses.
+Thread #10: 35712099 heads in 71428571 tosses.
+Thread #11: 35714871 heads in 71428571 tosses.
+Thread #12: 35708464 heads in 71428571 tosses.
+Thread #13: 35713994 heads in 71428571 tosses.
+499968577 heads in 1000000000 coin tosses.
+Elaspsed time: 3203ms
+Thread #0: 35716443 heads in 71428572 tosses.
+Thread #1: 35705920 heads in 71428572 tosses.
+Thread #2: 35715627 heads in 71428572 tosses.
+Thread #3: 35715024 heads in 71428572 tosses.
+Thread #4: 35713552 heads in 71428572 tosses.
+Thread #5: 35709404 heads in 71428572 tosses.
+Thread #6: 35704650 heads in 71428571 tosses.
+Thread #7: 35711833 heads in 71428571 tosses.
+Thread #8: 35719359 heads in 71428571 tosses.
+Thread #9: 35719558 heads in 71428571 tosses.
+Thread #10: 35718888 heads in 71428571 tosses.
+Thread #11: 35714846 heads in 71428571 tosses.
+Thread #12: 35714077 heads in 71428571 tosses.
+Thread #13: 35710773 heads in 71428571 tosses.
+499989954 heads in 1000000000 coin tosses.
+Elaspsed time: 3202ms
+Thread #0: 35714935 heads in 71428572 tosses.
+Thread #1: 35718888 heads in 71428572 tosses.
+Thread #2: 35714861 heads in 71428572 tosses.
+Thread #3: 35722354 heads in 71428572 tosses.
+Thread #4: 35709281 heads in 71428572 tosses.
+Thread #5: 35711783 heads in 71428572 tosses.
+Thread #6: 35717379 heads in 71428571 tosses.
+Thread #7: 35712589 heads in 71428571 tosses.
+Thread #8: 35712650 heads in 71428571 tosses.
+Thread #9: 35705357 heads in 71428571 tosses.
+Thread #10: 35716151 heads in 71428571 tosses.
+Thread #11: 35710383 heads in 71428571 tosses.
+Thread #12: 35710488 heads in 71428571 tosses.
+Thread #13: 35717657 heads in 71428571 tosses.
+499994756 heads in 1000000000 coin tosses.
+Elaspsed time: 3185ms
+Thread #0: 35716770 heads in 71428572 tosses.
+Thread #1: 35717704 heads in 71428572 tosses.
+Thread #2: 35719972 heads in 71428572 tosses.
+Thread #3: 35717381 heads in 71428572 tosses.
+Thread #4: 35712159 heads in 71428572 tosses.
+Thread #5: 35714332 heads in 71428572 tosses.
+Thread #6: 35710040 heads in 71428571 tosses.
+Thread #7: 35711067 heads in 71428571 tosses.
+Thread #8: 35710257 heads in 71428571 tosses.
+Thread #9: 35714261 heads in 71428571 tosses.
+Thread #10: 35710762 heads in 71428571 tosses.
+Thread #11: 35705336 heads in 71428571 tosses.
+Thread #12: 35724519 heads in 71428571 tosses.
+Thread #13: 35705790 heads in 71428571 tosses.
+499990350 heads in 1000000000 coin tosses.
+Elaspsed time: 3144ms
+************* thread = 15
+Thread #0: 33336566 heads in 66666667 tosses.
+Thread #1: 33333014 heads in 66666667 tosses.
+Thread #2: 33337114 heads in 66666667 tosses.
+Thread #3: 33326668 heads in 66666667 tosses.
+Thread #4: 33327060 heads in 66666667 tosses.
+Thread #5: 33331230 heads in 66666667 tosses.
+Thread #6: 33334461 heads in 66666667 tosses.
+Thread #7: 33333223 heads in 66666667 tosses.
+Thread #8: 33330113 heads in 66666667 tosses.
+Thread #9: 33334629 heads in 66666667 tosses.
+Thread #10: 33336648 heads in 66666666 tosses.
+Thread #11: 33328993 heads in 66666666 tosses.
+Thread #12: 33331388 heads in 66666666 tosses.
+Thread #13: 33337537 heads in 66666666 tosses.
+Thread #14: 33331552 heads in 66666666 tosses.
+499990196 heads in 1000000000 coin tosses.
+Elaspsed time: 3137ms
+Thread #0: 33337416 heads in 66666667 tosses.
+Thread #1: 33329013 heads in 66666667 tosses.
+Thread #2: 33327407 heads in 66666667 tosses.
+Thread #3: 33333871 heads in 66666667 tosses.
+Thread #4: 33327622 heads in 66666667 tosses.
+Thread #5: 33325573 heads in 66666667 tosses.
+Thread #6: 33325862 heads in 66666667 tosses.
+Thread #7: 33332326 heads in 66666667 tosses.
+Thread #8: 33328777 heads in 66666667 tosses.
+Thread #9: 33324202 heads in 66666667 tosses.
+Thread #10: 33336386 heads in 66666666 tosses.
+Thread #11: 33333618 heads in 66666666 tosses.
+Thread #12: 33338695 heads in 66666666 tosses.
+Thread #13: 33329518 heads in 66666666 tosses.
+Thread #14: 33336866 heads in 66666666 tosses.
+499967152 heads in 1000000000 coin tosses.
+Elaspsed time: 3111ms
+Thread #0: 33330648 heads in 66666667 tosses.
+Thread #1: 33334556 heads in 66666667 tosses.
+Thread #2: 33337333 heads in 66666667 tosses.
+Thread #3: 33345632 heads in 66666667 tosses.
+Thread #4: 33331821 heads in 66666667 tosses.
+Thread #5: 33335271 heads in 66666667 tosses.
+Thread #6: 33331595 heads in 66666667 tosses.
+Thread #7: 33329814 heads in 66666667 tosses.
+Thread #8: 33335021 heads in 66666667 tosses.
+Thread #9: 33332663 heads in 66666667 tosses.
+Thread #10: 33335012 heads in 66666666 tosses.
+Thread #11: 33328498 heads in 66666666 tosses.
+Thread #12: 33328120 heads in 66666666 tosses.
+Thread #13: 33333053 heads in 66666666 tosses.
+Thread #14: 33329074 heads in 66666666 tosses.
+499998111 heads in 1000000000 coin tosses.
+Elaspsed time: 3206ms
+Thread #0: 33337044 heads in 66666667 tosses.
+Thread #1: 33328689 heads in 66666667 tosses.
+Thread #2: 33335448 heads in 66666667 tosses.
+Thread #3: 33336701 heads in 66666667 tosses.
+Thread #4: 33331310 heads in 66666667 tosses.
+Thread #5: 33332139 heads in 66666667 tosses.
+Thread #6: 33334814 heads in 66666667 tosses.
+Thread #7: 33340812 heads in 66666667 tosses.
+Thread #8: 33340551 heads in 66666667 tosses.
+Thread #9: 33337578 heads in 66666667 tosses.
+Thread #10: 33334315 heads in 66666666 tosses.
+Thread #11: 33337144 heads in 66666666 tosses.
+Thread #12: 33332590 heads in 66666666 tosses.
+Thread #13: 33326814 heads in 66666666 tosses.
+Thread #14: 33334623 heads in 66666666 tosses.
+500020572 heads in 1000000000 coin tosses.
+Elaspsed time: 3123ms
+Thread #0: 33336158 heads in 66666667 tosses.
+Thread #1: 33329634 heads in 66666667 tosses.
+Thread #2: 33338782 heads in 66666667 tosses.
+Thread #3: 33335814 heads in 66666667 tosses.
+Thread #4: 33334961 heads in 66666667 tosses.
+Thread #5: 33334169 heads in 66666667 tosses.
+Thread #6: 33336326 heads in 66666667 tosses.
+Thread #7: 33334348 heads in 66666667 tosses.
+Thread #8: 33331777 heads in 66666667 tosses.
+Thread #9: 33333136 heads in 66666667 tosses.
+Thread #10: 33328786 heads in 66666666 tosses.
+Thread #11: 33327955 heads in 66666666 tosses.
+Thread #12: 33337152 heads in 66666666 tosses.
+Thread #13: 33335227 heads in 66666666 tosses.
+Thread #14: 33331062 heads in 66666666 tosses.
+500005287 heads in 1000000000 coin tosses.
+Elaspsed time: 3081ms
+************* thread = 16
+Thread #0: 31245156 heads in 62500000 tosses.
+Thread #1: 31250762 heads in 62500000 tosses.
+Thread #2: 31248156 heads in 62500000 tosses.
+Thread #3: 31247002 heads in 62500000 tosses.
+Thread #4: 31251779 heads in 62500000 tosses.
+Thread #5: 31247408 heads in 62500000 tosses.
+Thread #6: 31250355 heads in 62500000 tosses.
+Thread #7: 31246945 heads in 62500000 tosses.
+Thread #8: 31253720 heads in 62500000 tosses.
+Thread #9: 31250579 heads in 62500000 tosses.
+Thread #10: 31254522 heads in 62500000 tosses.
+Thread #11: 31249822 heads in 62500000 tosses.
+Thread #12: 31250784 heads in 62500000 tosses.
+Thread #13: 31251594 heads in 62500000 tosses.
+Thread #14: 31243873 heads in 62500000 tosses.
+Thread #15: 31248870 heads in 62500000 tosses.
+499991327 heads in 1000000000 coin tosses.
+Elaspsed time: 2989ms
+Thread #0: 31250080 heads in 62500000 tosses.
+Thread #1: 31257887 heads in 62500000 tosses.
+Thread #2: 31243780 heads in 62500000 tosses.
+Thread #3: 31251060 heads in 62500000 tosses.
+Thread #4: 31257647 heads in 62500000 tosses.
+Thread #5: 31253127 heads in 62500000 tosses.
+Thread #6: 31250505 heads in 62500000 tosses.
+Thread #7: 31252118 heads in 62500000 tosses.
+Thread #8: 31245708 heads in 62500000 tosses.
+Thread #9: 31254941 heads in 62500000 tosses.
+Thread #10: 31247535 heads in 62500000 tosses.
+Thread #11: 31244931 heads in 62500000 tosses.
+Thread #12: 31252001 heads in 62500000 tosses.
+Thread #13: 31250136 heads in 62500000 tosses.
+Thread #14: 31247895 heads in 62500000 tosses.
+Thread #15: 31247620 heads in 62500000 tosses.
+500006971 heads in 1000000000 coin tosses.
+Elaspsed time: 3454ms
+Thread #0: 31252415 heads in 62500000 tosses.
+Thread #1: 31255349 heads in 62500000 tosses.
+Thread #2: 31257642 heads in 62500000 tosses.
+Thread #3: 31255323 heads in 62500000 tosses.
+Thread #4: 31251848 heads in 62500000 tosses.
+Thread #5: 31253779 heads in 62500000 tosses.
+Thread #6: 31253138 heads in 62500000 tosses.
+Thread #7: 31252588 heads in 62500000 tosses.
+Thread #8: 31255965 heads in 62500000 tosses.
+Thread #9: 31252577 heads in 62500000 tosses.
+Thread #10: 31253584 heads in 62500000 tosses.
+Thread #11: 31251097 heads in 62500000 tosses.
+Thread #12: 31248383 heads in 62500000 tosses.
+Thread #13: 31251556 heads in 62500000 tosses.
+Thread #14: 31249315 heads in 62500000 tosses.
+Thread #15: 31253695 heads in 62500000 tosses.
+500048254 heads in 1000000000 coin tosses.
+Elaspsed time: 2985ms
+Thread #0: 31246267 heads in 62500000 tosses.
+Thread #1: 31253170 heads in 62500000 tosses.
+Thread #2: 31249108 heads in 62500000 tosses.
+Thread #3: 31246510 heads in 62500000 tosses.
+Thread #4: 31252550 heads in 62500000 tosses.
+Thread #5: 31253289 heads in 62500000 tosses.
+Thread #6: 31251173 heads in 62500000 tosses.
+Thread #7: 31253956 heads in 62500000 tosses.
+Thread #8: 31252456 heads in 62500000 tosses.
+Thread #9: 31250720 heads in 62500000 tosses.
+Thread #10: 31245825 heads in 62500000 tosses.
+Thread #11: 31244010 heads in 62500000 tosses.
+Thread #12: 31253902 heads in 62500000 tosses.
+Thread #13: 31242992 heads in 62500000 tosses.
+Thread #14: 31257195 heads in 62500000 tosses.
+Thread #15: 31248181 heads in 62500000 tosses.
+500001304 heads in 1000000000 coin tosses.
+Elaspsed time: 2984ms
+Thread #0: 31249009 heads in 62500000 tosses.
+Thread #1: 31253451 heads in 62500000 tosses.
+Thread #2: 31250682 heads in 62500000 tosses.
+Thread #3: 31245358 heads in 62500000 tosses.
+Thread #4: 31247173 heads in 62500000 tosses.
+Thread #5: 31253818 heads in 62500000 tosses.
+Thread #6: 31249312 heads in 62500000 tosses.
+Thread #7: 31250591 heads in 62500000 tosses.
+Thread #8: 31252569 heads in 62500000 tosses.
+Thread #9: 31246105 heads in 62500000 tosses.
+Thread #10: 31256121 heads in 62500000 tosses.
+Thread #11: 31251160 heads in 62500000 tosses.
+Thread #12: 31250191 heads in 62500000 tosses.
+Thread #13: 31247976 heads in 62500000 tosses.
+Thread #14: 31255216 heads in 62500000 tosses.
+Thread #15: 31245631 heads in 62500000 tosses.
+500004363 heads in 1000000000 coin tosses.
+Elaspsed time: 3127ms

@@ -28,7 +28,7 @@ public class CoinFlip {
     		System.out.println("Thread #" + coinThreads[i].getThreadId() + ": " + coinThreads[i].getNumHead() + " heads in " + coinThreads[i].getNumIterations() + " tosses.");
     	}
     	System.out.println(numHeads + " heads in " + numIterations + " coin tosses.");
-    	System.out.println("Elaspsed time: " + (endTime - startTime) + "ms");
+    	System.out.println("Elapsed time: " + (endTime - startTime) + "ms");
     	
     }
     private static void initCoinThreads() {
