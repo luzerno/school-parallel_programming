@@ -10,6 +10,5 @@ for line in sys.stdin:
     for index in range(len(friends)):
         friend = friends[index]
         others = friends[:index] + friends[index + 1:]
-
         print "\t".join([me] + [friend] + others)
 
