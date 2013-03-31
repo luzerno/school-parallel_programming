@@ -10,5 +10,13 @@ for line in sys.stdin:
     for index in range(len(friends)):
         friend = friends[index]
         others = friends[:index] + friends[index + 1:]
-        print "\t".join([me] + [friend] + others)
+        try:
+            me_int = int(me)
+            friend_int = int(friend)
+        except ValueError:
+            sys.stderr.write("ValueError")
+        if (me_int < friend_int):
+            print "\t".join([me] + [friend] + others)
+        else:
+            print "\t".join([friend] + [me] + others)
 
