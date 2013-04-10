@@ -1,49 +1,34 @@
 #!/usr/bin/python
 
 import sys
-def print_trio(me, friend, others):
-    while (len(others) > 0):
-        other = others.pop()
-        if (other > friend):
-            print "%d\t%d\t%d" % (me, friend, other)
-
-
-
 try:
     cur_me = -1
     cur_friend = -1
-    cur_others_set = set([])
+    cur_other = -1
     dup = False
     for line in sys.stdin:
-        me, friend, others = line.split("\t", 2)
-        others = others.split("\t")
-
+        me, friend, other = line.strip().split()
         try:
             me = int(me)
             friend = int(friend)
-            others = map(int, others)
+            other = int(other)
         except ValueError:
             sys.stderr.write("ValueError")
-
-        others_set = set(others)
-        # print cur_me, " ", cur_friend
-        # print me, " ", friend, " ", others
-        if (me == cur_me and friend == cur_friend):
-            cur_others_set = cur_others_set & others_set
+        if (me == cur_me and friend == cur_friend and other == cur_other):
             dup = True
         else:
             if (dup == True):
-                print_trio(cur_me, cur_friend, cur_others_set.copy())
-                print_trio(cur_friend, cur_me, cur_others_set.copy())
+                if (cur_friend < cur_other):
+                    print "%d %d %d" % (cur_me, cur_friend, cur_other)
             dup = False
-            cur_others_set.clear();
             cur_me = me
             cur_friend = friend
-            cur_others_set = others_set.copy()
+            cur_other = other
 
     if (dup == True):
-        print_trio(cur_me, cur_friend, cur_others_set)
-        print_trio(cur_friend, cur_me, cur_others_set.copy())
+        if (cur_friend < cur_other):
+            print "%d %d %d" % (cur_me, cur_friend, cur_other)
+
 except KeyboardInterrupt:
     exit(0)
 
