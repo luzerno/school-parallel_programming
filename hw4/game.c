@@ -180,10 +180,12 @@ int main(int argc, char **argv) {
 
         /* printf("ID: %d COPY TO OUTGOING GOING DOWN\n", id); */
         if (numprocs != 1) {
+            printf("1");
             copy(mygrid, outgoing, (high - 1) * dim == 0 ? 256 : (high - 1) * dim, high * dim, 0, dim);
 
             message(outgoing, incoming, id, dim, numprocs, myrows, 1);
             /* printf("ID: %d COPYBACK TO MYGRID UP\n", id); */
+            printf("2");
             copy(incoming, mygrid, 0, dim, ((low - 1 + dim) % dim) * dim, low * dim == 0 ? 256 : low * dim);
             
             /* printarray(incoming, dim); */
@@ -191,9 +193,11 @@ int main(int argc, char **argv) {
 
 
             /* printf("ID: %d COPY TO OUTGOING GOING UP\n", id); */
-            copy(mygrid, outgoing, low * dim, (low + 1) * dim, 0, dim);
+            printf("3");
+            copy(mygrid, outgoing, low * dim, ((low + 1) % dim) * dim, 0, dim);
             /* printgrid(mygrid, dim); */
             message(outgoing, incoming, id, dim, numprocs, myrows, -1);
+            printf("4");
             /* printf("ID: %d COPYBACK TO MYGRID DOWN\n", id); */
             copy(incoming, mygrid, 0, dim, (high * dim == 256) ? 0 : high * dim, ((high + 1) % dim) * dim);
             /* if (id == 1) { */
