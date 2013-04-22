@@ -3,8 +3,8 @@ import numpy as np
 plt.ion()
 fig = plt.figure()
 ax = fig.add_subplot(111)
-smalltime = 10192.6
-time = np.array([10192.6, 12539, 13026, 16307.6, 37456.8])
+smalltime = 10283.2
+time = np.array([10283.2, 12540.6, 12995.8, 16283.2, 36958])
 speedup = smalltime / time
 ax.plot([1, 2, 4, 8, 16], speedup, "bo-")
 ax.set_xticks(ticks=[1, 2, 4, 8, 16])

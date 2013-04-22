@@ -1,0 +1,37 @@
+import java.io.PrintStream;
+
+import javax.crypto.SealedObject;
+
+public class DecryptThread implements Runnable {
+	private SealedDES deccipher;
+	private SealedObject sealedObj;
+	private long threadId;
+	private long startKey, endKey;
+	private PrintStream p;
+	private long startTime, endTime;
+	
+	public DecryptThread(SealedObject sealedObj, long threadId, long startKey, long endKey) {
+		this.sealedObj = sealedObj;
+		this.threadId = threadId;
+		this.startKey = startKey;
+		this.endKey = endKey;
+		this.p = new PrintStream(System.out);
+		this.deccipher = new SealedDES();
+	}
+	public long getThreadId() {
+		return this.threadId;
+	}
+	public void run() {
+		for (long i = startKey; i < endKey; i++) {
+			this.deccipher.setKey(i);
+			String decryptstr = this.deccipher.decrypt(sealedObj);
+			if (decryptstr != null) {
+				p.printf("Thread %l found decrypt key %016x producing message: %s\n", threadId, i, decryptstr);
+			}
+			if (i % 100000 == 0) {
+				long elapsed = System.currentTimeMillis() - startTime;
+				System.out.println("Thread " + threadId + " searched key number " + i + " at " + elapsed + " milliseconds.");
+			}
+		}
+	}
+}

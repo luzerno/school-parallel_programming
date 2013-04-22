@@ -178,8 +178,11 @@
     \textbf{Answer:} Every friend list of length $l$ is decomposed to $O(l^2)$ triples, so the total number of triples spit out by the mappers is $O(nl^2)$. To sort all the records, the time used is $O(nl^2\log(nl^2))$. The reducers loop through all the records and output the duplicate ones, and this can be run in $O(nl^2)$ time. The overall time complexity of is $O(nl^2\log(nl^2)+\alpha)$ where $\alpha$ is time used to assign tasks to mappers and reducers and other overhead introduced
     by Map/Reduce.
 
-    \item How much work is performed by each mapper? By each reducer?
-    \item Based on your answers to be above, describe the tradeoff between complexity and parallelism (qualitatively, you have already quantified it in the previous steps).
+    \item How much work is performed by each mapper? By each reducer?\\
+    \textbf{Answer:} Assume the number of mappers is $m_1$ and the number of reducers is $m_2$. So the work performed by each mapper is $O(\frac{nl^2}{m_1})$ and the work performed by each reducer is $O(\frac{nl^2}{m_2})$.
+
+    \item Based on your answers to be above, describe the tradeoff between complexity and parallelism (qualitatively, you have already quantified it in the previous steps).\\
+    \textbf{Answer:} The time complexity of serial implementation is lower than the total running time of the Map/Reduce algorithm, but more parallelism will lower the Map/Reduce running time.
 \end{enumerate}
 \end{document}
 

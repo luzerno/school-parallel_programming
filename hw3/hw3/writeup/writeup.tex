@@ -1,0 +1,188 @@
+\documentclass[letterpaper, 11pt]{article}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{times}
+%\usepackage[in]{fullpage}
+\usepackage{amsmath,amsfonts,amsthm}
+\usepackage{graphicx}
+
+%\documentclass[11pt]{article}
+%\pagestyle{myheadings}
+%\usepackage[ruled,nothing]{algorithm}
+%\usepackage{algorithmic}
+%\usepackage[dvips]{epsfig,graphicx}
+%\numberwithin{equation}{section}
+
+\bibliographystyle{plain}
+
+\newenvironment{newalgo}[2]{\begin{algorithm}
+
+\caption{\textsc{#1}}\label{#2}
+
+\begin{algorithmic}[1]}{\end{algorithmic}\end{algorithm}}
+
+
+
+\newcommand{\gm}{\gamma}
+\newcommand{\wh}{\widehat}
+\newcommand{\rep}{representation}
+\newcommand{\rv}{random variable}
+\newcommand{\la}{\lambda}
+\newcommand{\wt}{\widetilde}
+\newcommand{\st}{such that}
+\newcommand{\slvary}{slowly varying}
+\newcommand{\ma}{moving average}
+\newcommand{\regvary}{regularly varying}
+\newcommand{\asy}{asymptotic}
+\newcommand{\ts}{time series}
+\newcommand{\id}{infinitely divisible}
+\newcommand{\seq}{sequence}
+\newcommand{\fidi}{finite dimensional \ds}
+
+\newcommand{\ble}{\begin{lemma}}
+\newcommand{\ele}{\end{lemma}}
+\newcommand{\bfX}{{\bf X}}
+\newcommand{\pro}{probabilit}
+\newcommand{\BX}{{\bf X}}
+\newcommand{\BY}{{\bf Y}}
+\newcommand{\BZ}{{\bf Z}}
+\newcommand{\BV}{{\bf V}}
+\newcommand{\BW}{{\bf W}}
+\newcommand{\reals}{{\mathbb R}}
+\newcommand{\bbr}{\reals}
+
+\newcommand{\balpha}{\mbox{\boldmath$\alpha$}}
+\newcommand{\bbeta}{\mbox{\boldmath$\beta$}}
+\newcommand{\bmu}{\mbox{\boldmath$\mu$}}
+\newcommand{\tbmu}{\mbox{\boldmath${\tilde \mu}$}}
+\newcommand{\bEta}{\mbox{\boldmath$\eta$}}
+
+
+\def \br#1{\left \{#1 \right \}}
+\def \pr#1{\left (#1 \right)}
+
+\newcommand{\Gm}{\Gamma}
+\newcommand{\ep}{\epsilon}
+
+
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{figur}[lemma]{Figure}
+\newtheorem{theorem}[lemma]{Theorem}
+\newtheorem{proposition}[lemma]{Proposition}
+\newtheorem{definition}[lemma]{Definition}
+\newtheorem{corollary}[lemma]{Corollary}
+\newtheorem{example}[lemma]{Example}
+\newtheorem{exercise}[lemma]{Exercise}
+\newtheorem{remark}[lemma]{Remark}
+\newtheorem{fig}[lemma]{Figure}
+\newtheorem{tab}[lemma]{Table}
+\newtheorem{fact}[lemma]{Fact}
+\newtheorem{test}{Lemma}
+\newtheorem{algorithm}[lemma]{Algorithm}
+
+\newcommand{\play}{\displaystyle}
+
+\newcommand{\ms}{measure}
+\newcommand{\beao}{\begin{eqnarray*}}
+\newcommand{\eeao}{\end{eqnarray*}\noindent}
+\newcommand{\beam}{\begin{eqnarray}}
+\newcommand{\eeam}{\end{eqnarray}\noindent}
+
+\newcommand{\halmos}{\hfill\mbox{\qed}\\}
+\newcommand{\fct}{function}
+\newcommand{\ins}{insurance}
+\newcommand{\ds}{distribution}
+
+\newcommand{\one}{{\bf 1}}
+\newcommand{\eid}{\buildrel{\rm d}\over {=}}
+\newcommand {\Or}{\rm ORDER}
+\newcommand {\In}{\rm INTER}
+
+\newcommand{\bbd}{{\mathbb D}}
+\newcommand{\vi}{$V_{ij}$ }
+\newcommand{\rr}{R^{\prime\prime}}
+%\newcommand{\R}{R^\prime}
+\newcommand{\ci}{\frac{1}{c}}
+\newcommand{\Vi}{V(n)}
+\newcommand{\dR}{\mathcal R}
+\newcommand{\md}[1]{\left(\ \rm{mod}\ \it{#1}\right)}
+\newcommand{\So}{s}
+\newcommand{\feedback}[1]{\textcolor{red}{#1}}
+%\begin{document}
+%\def\DoubleSpace{\baselineskip=24pt}
+%\DoubleSpace \sloppy
+
+\begin{document}
+
+
+
+\title{Homework \#3 \\ Parallel Programming \\Three's Company }
+\author{Yifan Ge}
+
+\maketitle
+\section*{Problem 1}
+\textbf{Describe your map/reduce algorithm for solving the three's company problem.}
+\begin{enumerate}
+    \item Describe the operation of the mapper and reducer. How does this combination solve the three's company problem?\\
+    \textbf{Answer:} 
+    \begin{itemize}
+        \item \textbf{Mapper:} For one line of input enumerating $A$'s friends like this:\\
+            $$A,B_1,B_2,B_3$$
+            This input means $A$ has three friends: $B_1$, $B_2$ and $B_3$. We output the following key-value pairs (the $1$s are actually meaningless):\\
+            \begin{align*}
+            (A, B_1, B_2)\rightarrow 1\\
+            (A, B_1, B_3)\rightarrow 1\\
+            (A, B_2, B_1)\rightarrow 1\\
+            (A, B_2, B_3)\rightarrow 1\\
+            (A, B_3, B_1)\rightarrow 1\\
+            (A, B_3, B_2)\rightarrow 1\\
+            (B_1, A, B_2)\rightarrow 1\\
+            (B_1, A, B_3)\rightarrow 1\\
+            (B_2, A, B_1)\rightarrow 1\\
+            (B_2, A, B_3)\rightarrow 1
+            \end{align*}
+            \begin{align*}
+            (B_3, A, B_1)\rightarrow 1\\
+            (B_3, A, B_2)\rightarrow 1
+            \end{align*}
+        \item \textbf{Reducer:} For each key we count the number of its occurrences. If one reducer gets two records with the same key, we output the key as a trio.\\
+    \end{itemize}
+    Every triple the mappers spit out is a potential trio. For example, the first line ($(A, B_1, B_2)$) in the above example means $A$ is friend with $B_1$ and $B_2$, to make it a trio, we also need to know $B_1$ is friend with $B_2$. This can be confirmed if we see another $(A, B_1, B_2)$, which must be spit out by a friend list starting with $B_1$. This is because we swap the first and the second elements in each triple and output the new triple. If $B_1$ is friend with $B_2$,
+    and $B_1$ is friend with $A$ because of the symmetry guaranteed by the input, we can get another $(A, B_1, B_2)$ from the friend list input starting with $B_1$.\\
+
+    \item What is the potential parallelism? How many mappers does you implementation allow for? Reducers?\\
+    \textbf{Answer:} As each line of the input is decomposed into triples by the mappers, and the triples are distributed to the reducers to recognize the duplicate keys, there is no data dependency. The mappers and reducers both can run simultaneously. If the input files contains $n$ lines, at most $n$ mappers are allowed. If the mappers output $m$ different keys, at most $m$ reducers are allowed.
+
+    \item What types are used as the input/output to the mapper? Motivate the transformation.\\
+        \textbf{Answer:} The input of mapper is \texttt{<Object, Text>} and the output is \texttt{<Text, IntWritable>}. As the key of input is the line number, which we don't care about, so we leave its type to be Object. The value is the actual friend list, we read it in a \texttt{String}, which is \texttt{Text} in Hadoop. As each line of the output consists of a friend triple (which we output as a string) and a $1$ (dummy output), so the type of key is \texttt{Text} and the type of the value is
+        \texttt{IntWritable}.
+
+\end{enumerate}
+\section*{Problem 2}
+\textbf{On combiners}
+\begin{enumerate}
+    \item Why did you leave the combiner class undefined in Step 4?\\
+        \textbf{Answer:} The combiner is not suitable for the algorithm is because that the two duplicate keys may appear in the outputs of different mappers, we cannot distinguish within a mapper what triples appear twice and what triples are singletons because we are using the \texttt{IntWritable} values only as placeholders. But in fact we can use combiners if the \texttt{IntWritable} values are used to count the number so we can merge the duplicate keys. However, as one same key can appear
+        at most twice, the efficiency improvement provided by the combiner may be not fair enough comparing to the cost introduced.
+    \item Generalize the concept: What sort of computations cannot be conducted in the combiner?\\
+        \textbf{Answer:} In general, a computation can be conducted in the combiner if it is both commutative and associative. For example, the addition computation in word count can be conducted in the combiner. In contrast, computations that the order or association matter cannot be conducted in the combiner.
+\end{enumerate}
+
+\section*{Problem 3}
+\textbf{Analyze the parallel and serial complexity of the problem and your M/R implementation (in Big-O notation). You should assume that there are $n$ friends list each of length $l$ friends.}
+\begin{enumerate}
+    \item What is the fundamental serial complexity of the problem? Think of the best serial implementation.\\
+    \textbf{Answer:} For the friend list starting with $i$, we choose two distinct value $j$ and $k$ at one time. Since $j$ and $k$ are already friends of $i$, we need to check if $k$ is a friend of $j$ by looking at the friend list starting with $j$. As we do this for each of the $n$ friend lists, and the length of each of the friend lists is $l$, the time complexity of the algorithm is $O(mnl^2)$, in which $m$ is the time used to check if $k$ is a friend of $j$. If we build a hash table
+    for each friend list, and we suppose the time complexity of the lookup operation is $O(1)$, the overall time complexity of the serial algorithm is $O(nl^2)$.
+    \item How much work in total (over all mappers and reducers) does the Map/Reduce algorithm perform?\\
+    \textbf{Answer:} Every friend list of length $l$ is decomposed to $O(l^2)$ triples, so the total number of triples spit out by the mappers is $O(nl^2)$. To sort all the records, the time used is $O(nl^2\log(nl^2))$. The reducers loop through all the records and output the duplicate ones, and this can be run in $O(nl^2)$ time. The overall time complexity of is $O(nl^2\log(nl^2)+\alpha)$ where $\alpha$ is time used to assign tasks to mappers and reducers and other overhead introduced
+    by Map/Reduce.
+
+    \item How much work is performed by each mapper? By each reducer?\\
+    \textbf{Answer:} Assume the number of mappers is $m_1$ and the number of reducers is $m_2$. So the work performed by each mapper is $O(\frac{nl^2}{m_1})$ and the work performed by each reducer is $O(\frac{nl^2}{m_2})$.
+
+    \item Based on your answers to be above, describe the tradeoff between complexity and parallelism (qualitatively, you have already quantified it in the previous steps).\\
+    \textbf{Answer:} The time complexity of serial implementation is lower than the total running time of the Map/Reduce algorithm, but as the Map/Reduce algorithm is run in parallel, the actual running time is lower than the serial implementation. Moreover, add more mappers/reducers will also introduce more overhead.
+\end{enumerate}
+\end{document}
+

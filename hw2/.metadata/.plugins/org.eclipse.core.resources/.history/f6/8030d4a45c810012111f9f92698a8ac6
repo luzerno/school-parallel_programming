@@ -1,0 +1,24 @@
+import javax.crypto.SealedObject;
+
+public class ParallelBruteForceDES {
+	private static Thread[] threads;
+	private static DecryptThread[] decryptThreads;
+	private static SealedObject sealedObj;
+	private static int numThreads;
+	private static int numKeyBits;
+	private static void parseArgs(String[] args) {
+		if (args.length != 2) {
+			System.err.println("Usage: BruteForceDES #threads key_size_in_bits");
+			System.exit(0);
+		}
+		try {
+			numThreads = Integer.parseInt(args[0]);
+			numKeyBits = Integer.parseInt(args[1]);
+		} catch (NumberFormatException e) {
+			System.err.println("Usage: BruteForceDES #threads key_size_in_bits");
+		}
+	}
+	public static void main(String[] args) {
+		
+	}
+}

@@ -129,16 +129,16 @@ $1000000000,2000000000,$\\$\dots,16000000000$ for scaleup. \\
 \textbf{Scaleup and speedup}\\
 \begin{enumerate}
     \item \textbf{Produce charts that show the scaleup and speedup of your program.}\\
-        The speedup of the program is shown in Figure \ref{fig:coinspeedup}, and the scaleup is shown in Figure \ref{fig:coinscaleup}.
+       The speedup of the program is shown in Figure \ref{fig:coinspeedup}, and the scaleup is shown in Figure \ref{fig:coinscaleup}.
 
-        \begin{figure}[h]
+        \begin{figure}[htbp]
             \centering
             \includegraphics[width=3.8in]{coinspeedup.eps}
             \caption{Speedup of CoinFlip for different number of threads}
             \label{fig:coinspeedup}
         \end{figure}
 
-        \begin{figure}[h]
+        \begin{figure}[htbp]
             \centering
             \includegraphics[width=3.8in]{coinscaleup.eps}
             \caption{Scaleup of CoinFlip for different number of threads}
@@ -154,11 +154,55 @@ $1000000000,2000000000,$\\$\dots,16000000000$ for scaleup. \\
 
 \textbf{Design and run an experiment that measures the startup costs of this code.}
 \begin{enumerate}
-    \item Describe your experiment. Why does it measure startup?
-    \item Estimate startup cost. Justify your answer.
-    \item Assuming that the startup costs are the serial portion of the code and the remaining time is the parallel portion of the code,what speedup would you expect to realize on 100 threads? 500 threads? 1000 threads? (Use Amdahl's law.)
+    \item \textbf{Describe your experiment. Why does it measure startup?}\\
+        If we run the program with $0$ coin flippings, the time we get is the startup cost. This is because the threads are created and initialized but never actually put to work. 
+    \item \textbf{Estimate startup cost. Justify your answer.}\\
+        We run the program for $100, 200,$\\$ \dots, 500$ threads with $0$ iteration. The result is shown in Figure \ref{fig:coinstartup}.
+
+        \begin{figure}[htbp]
+            \centering
+            \includegraphics[width=3.8in]{coinstartup.eps}
+            \caption{Startup of CoinFlip for different number of threads}
+            \label{fig:coinstartup}
+        \end{figure}
+        From the figure, we estimate the startup cost $startup = 0.195 * \dot \#thread + 10.5$
+    \item \textbf{Assuming that the startup costs are the serial portion of the code and the remaining time is the parallel portion of the code,what speedup would you expect to realize on 100 threads? 500 threads? 1000 threads? (Use Amdahl's law.)}\\
+        Assume the $\#thread$ is $1$, the startup cost is about $10.7$ ms, and from part $1$ we know the running time is $9050$ ms, so we estimate the parallel portion to be $\frac{9050-10.7}{9050}=0.99$. Using Amdahl's law, the speedup is $\frac{1}{(1-P)+\frac{P}{S}}$.
+        So with $P=0.99$, for $S=100$, the speedup is $50.25$. For $S=500$, the speedup is $83.47$, and for $S=1000$, the speedup is $90.99$.
 \end{enumerate}
+\newpage
+\newpage
 \section*{Problem 2}
+\textbf{For reasonable parameters and for however many cores you have on the system, measure the scaleup and speedup of this program.}
+
+\begin{enumerate}
+    \item \textbf{Produce charts and interpret/describe the results. Is the speedup linear?}\\
+        The program is run for $1, 2, \dots, 16$ threads with a key of $20$ bits long for speedup, and run for $1, 2, 4, 8, 16$ threads with $20, 21, 22, 23, 24$ bits long keys for scaleup.
+        The speedup of the program is shown in Figure \ref{fig:desspeedup}, and the scaleup is shown in Figure \ref{fig:desscaleup}.
+        \begin{figure}[htbp]
+            \centering
+            \includegraphics[width=3.8in]{desspeedup.eps}
+            \caption{Speedup of BruteForceDES for different number of threads}
+            \label{fig:desspeedup}
+        \end{figure}
+
+        \begin{figure}[htbp]
+            \centering
+            \includegraphics[width=3.8in]{desscaleup.eps}
+            \caption{Scaleup of BruteForceDES for different number of threads}
+            \label{fig:desscaleup}
+        \end{figure}
+        The speedup shows a near-linear increase when the thread number goes from $1$ to $6$, but it is not a linear speedup as doubling the number of threads doesn't double the speed. When the thread number reaches $7$, the increase gets down and finally starts to degrade.\\
+        The scaleup keeps going down. And from $1$ thread to $2$ threads, the drop is particularly rapid. It is also not linear scaleup.
+    \item \textbf{Why do you think that your scaleup/speedup are less than linear? What are the causes for the loss of parallel efficiency?}\\
+        As I use a separate \texttt{SealedObject} for each of the working threads, and I make every thread create its own \texttt{SealedDES} object to do the decryption, there should be no shared resources between the threads. And as I have less threads than cores, there should be not much context switching overhead to affect the speedup. And the job is divided evenly among all the threads, there is no skew problem. So the cause of the sublinear speedup/scaleup is the startup
+        cost. The portion of operations that cannot be run in parallel has lower the speedup increase, and because of Amdahl's law the speedup and scaleup are sublinear.
+    \item \textbf{Extrapolating from your scaleup analysis, how long would it take to brute force a 56 bit DES key on a machine with 64 cores? Explain your answer.}\\
+        Assume the scaleup to be $S_{64}$ with $64$ threads. We suppose for $1$ thread and $20$-bits key, the running time is $T_{1}$; for $64$ threads and $26$-bits key, the running time is $T_{64}$. Here we have $S_{64}=T_{1}/T_{64}$. From previous analysis, $T_{1}=10051ms$. To brute force a $56$ bit DES key, the time should be
+        $T=2^{30}T_{64}=2^{30}\frac{T_{1}}{S_{64}}=\frac{2^{31}}{S_{64}}s$. If we have a linear scaleup, it will take about $2^{31}s$, which is about $68$ years to brute force the 56 bit key. Extrapolating our scaleup analysis,
+        $S_{64}$ will be a much smaller number, so the time to brute force a $56$ bit key on a $64$ core machine will be very large.
+\end{enumerate}
+
 
 
 \end{document}

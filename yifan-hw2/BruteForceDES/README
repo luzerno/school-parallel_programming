@@ -1,0 +1,11 @@
+Yifan Ge
+gyifan1@jhu.edu
+
+Building the program
+--------------------
+A simple Makefile is suppiled in the archive. Use "make" to build the program, or use "make clean" to remove *.class files.
+
+Running the program
+-------------------
+java CoinFlip #threads key_size
+e.g. "java BruteForceDES 4 20" will brute force 20 bit key using 4 threads.

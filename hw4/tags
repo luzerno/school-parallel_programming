@@ -1,0 +1,12 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+IS_ODD	game.c	5;"	d	file:
+copy	game.c	/^void copy(int *src, int *dest, int srcfrom, int srcto, int destfrom, int destto) {$/;"	f
+main	game.c	/^int main(int argc, char **argv) {$/;"	f
+message	game.c	/^void message(int *outgoing, int *incoming, int myid, int buff_count, int num_procs, int rows, int dir) {$/;"	f
+printgrid	game.c	/^void printgrid(int *grid, int dim) {$/;"	f
+update	game.c	/^void update(int low, int high, int *mygrid, int *tempgrid, int dim) {$/;"	f
