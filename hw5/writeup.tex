@@ -1,0 +1,28 @@
+\documentclass[letterpaper, 11pt]{article}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{times}
+%\usepackage[in]{fullpage}
+\usepackage{amsmath,amsfonts,amsthm}
+\usepackage{graphicx}
+
+
+
+\begin{document}
+
+
+
+\title{Homework \#4 \\ Parallel Programming \\Kernel Smoother}
+\author{Yifan Ge}
+
+\maketitle
+\section*{Problem 1}
+\textbf{What speedup did your CUDA implementation achieve on a grid of size $2064 \times 2064$ with a kernel width of 8? (Note that this creates an internal/smoothed region of size $2048 \times 2048$.)}\\
+The serial implementation runs in $10.198$s and the CUDA implementation with a block width of $32$ runs in $0.121$s. So the speedup is $\frac{10.198}{0.121}=84.3$.
+
+\section*{Problem 2}
+\textbf{In your program you chose an appropriate value for the thread block size based on the grid and hardware properties. (If you didn't choose appropriately, you should go back and do so now.) What values did you choose for your thread block size and why? Why principles did you use to guide this choice?}\\
+The optimal block width I choose is $32$, as I tried different block widths and any value beyond $32$ cannot provide obvious speedup increment. This is actually dependent on the hardware I am using and the problem I am solving. There is no definitive answer to this question, and the principle is find an optimal occupancy for the multiprocessors.
+
+\end{document}
+
